@@ -1,0 +1,45 @@
+!!! STRICT
+="<!-- (c) #{Time.now.year} Ryan Mulligan All rights reserved. -->"
+%html{:xmlns=>"http://www.w3.org/1999/xhtml", :lang=>"en"}
+  %head
+    -if @fulltitle
+      %title=@fulltitle
+    -elsif @title
+      %title
+        ==#{@title} - Ryan Mulligan
+    -else
+      %title Ryan Mulligan
+    %meta{'http-equiv'=>"Content-Type", :content=>"text/html; charset=UTF-8"}/
+    // Open Id
+    %link{:rel=>"openid.server", :href=>"http://www.myopenid.com/server"}/
+    %link{:rel=>"openid.delegate", :href=>"http://ryantm.myopenid.com"}/
+    %meta{'http-equiv'=>"X-XRDS-Location",:content=>"http://www.myopenid.com/xrds?username=ryantm.myopenid.com"}/
+
+    -unless @tags
+      -default_tags = true
+      -@tags = ["RyanTM"]
+    - tag_join = @tags.join("+")
+    - rss_href = "http://feeds.feedburner.com/RyanTM"
+    %link{:rel=>"alternate", :type=>"application/rss+xml", :title=>"Ryan Mulligan",:href=>rss_href}
+
+    = stylesheets "application"
+    %meta{:name=>'description', :content=>"Ryan T Mulligan's personal website."}/
+    %meta{:name=>"keywords", :content=>"Ryan Mulligan, Ryan, Mulligan, RyanTM"}/
+  %body
+    .header
+      .centers
+        %a{:href=>"/",:title=>"Ryan Mulligan's homepage"}
+          =img "/images/logo.png", :alt=>"RyanTM"
+    #main
+      .centers
+        .sidebar
+          =#partial('pages/sidebar')
+        .main
+          = yield
+      .clear
+    .footer
+      .centers
+        %h3.subtitle
+          &copy;
+          =Time.now.year
+          Ryan Mulligan

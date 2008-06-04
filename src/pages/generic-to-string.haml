@@ -1,0 +1,11 @@
+-@title = "GenericToString.java"
+-@tags = ["Mao","Card Game"]
+%h1=@title
+
+%p GenericToString is a utility that Java should have inside the standard library. You can call it on objects by "GenericToString.genericToString(obj);" and it will return a string that contains all of the fields of the object, found by reflection. The output of it is modeled after Kernel#inspect in Ruby.
+
+%p=link "download link", "/GenericToString.java"
+
+="<pre>#{preserve(File.open("site/GenericToString.java", "r"){|file| str = ""; while(line=file.gets) do str+=line;end; str})}</pre>"
+
+%p=link "download link", "/GenericToString.java"
