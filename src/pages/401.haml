@@ -3,7 +3,7 @@
 %h1=@title
 %p
   401 W Washington is located in Urbana, Illinois. It is a bungalow with loft and wood flooring. It is a 10 minute walk from the Quad of the
-  ="#{link "University&nbsp;of&nbsp;Illinois&nbsp;at&nbsp;Urbana-Champaign","http://www.illinois.edu"}."
+  ="#{link_to "University&nbsp;of&nbsp;Illinois&nbsp;at&nbsp;Urbana-Champaign","http://www.illinois.edu"}."
   Carle park&mdash;featuring children's playgrounds, a volleyball court, and a soccer field&mdash;is a half minute walk to the east.
 
 %p
@@ -37,18 +37,18 @@
 
 %h3 Photos
 %p#photos
-  =img 'streetsign.jpg'
-  =img 'northside.jpg'
-  =img 'eastside.jpg'
-  =img 'garage.jpg'
-  =img 'grill.jpg'
-  =img 'spiralstaircase.jpg'
+  =image_tag 'streetsign.jpg'
+  =image_tag 'northside.jpg'
+  =image_tag 'eastside.jpg'
+  =image_tag 'garage.jpg'
+  =image_tag 'grill.jpg'
+  =image_tag 'spiralstaircase.jpg'
 %p
   More interior pictures are on their way.
 
 %h3 Rent
 %p
-  ==Please ask #{link "Ryan Mulligan","/contact.html"} for pricing.
+  ==Please ask #{link_to "Ryan Mulligan","/contact.html"} for pricing.
 
 %h3 Availability
 %p
@@ -57,5 +57,5 @@
 %h3 Contact and Tours
 %p
   Tours are available by appointment.
-  For more information call me (1-630-253-4900) or email at  
-  = "#{link "ryan@ryantm.com","mailto:ryan@ryantm.com"}."
+  For more information call me (1-630-253-4900) or email at
+  = "#{link_to "ryan@ryantm.com","mailto:ryan@ryantm.com"}."

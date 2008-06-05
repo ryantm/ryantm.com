@@ -5,7 +5,7 @@
     %h2
       %a{:href=>"mailto:ryan@ryantm.com"}ryan@ryantm.com
   .right
-    %a{:href=>"http://ryantm.com"}ryantm.com
+    %a{:href=>"http://www.ryantm.com"}Ryan Mulligan's Website
     %br/
     +1 630 253 4900
     %address
@@ -37,17 +37,27 @@
   .dates
   .info
     %b Web
-    (XHTML, CSS, CGI, Javascript, Rails, Yaws, web design, Linux webservers, Email servers)
+    (XHTML, CSS, CGI, Javascript, Rails, web design, Linux webservers, Email servers)
 .item
   .dates
   .info
     %b Programming
-    (Visual Basic, C, C++, Java, Python, Ruby, Rails, Lisp, HaXe, Erlang, Javascript, swfmill, LaTeX, SQL, Mathematica)
+    (Visual Basic, C, C++, Java, BASH, Python, Ruby, Rails, Lisp, PHP, HaXe, Erlang, Javascript, swfmill, LaTeX, SQL, Mathematica)
+.item
+  .dates
+  .info
+    %b Version Control
+    (CVS, SVN, Mercurial, Git)
 .item
   .dates
   .info
     %b Finance
     (NPV, p&l, balance sheets, organization treasury)
+.item
+  .dates
+  .info
+    %b Marketing
+    (Search Engine Optimization)
 .item
   .dates
   .info
@@ -95,18 +105,25 @@
       -link = "http://funproductive.com"
       %a{:href=>link, :title=>link} Funproductive
     %ul
-      %li==Programmed #{link "BrawlSnapshots.com", "http://www.brawlsnapshots.com"}, a website that hosts over 10,000 images, averaging 600 visitors per day for a popular Nintendo Wii Game
-      %li==Programmed Adobe Flash and streaming voice/video server using HaXe to distribute real-time video to website visitors. (Demo at #{link "CrazyTalk", "http://funproductive.com"})
+      %li==Created a #{link_to "Smash Bros. Brawl Screenshot Gallery", "http://www.brawlsnapshots.com"}, a website that hosts over 15,000 images, averaging 1000 visitors per day for a popular Nintendo Wii Game
+      %li==Programmed Adobe Flash to create a #{link_to "streaming voice/video server", "http://funproductive.com"} using HaXe to distribute real-time video to website visitors.
 .item
   .dates
     Aug 06 &mdash;  Present
   .info
     %h3
       President &mdash;
-      -link = "http://sassins.com"
-      %a{:href=>link, :title=>link} Sassins
+      Grayson Mulligan Inc.
     %ul
-      %li Created and managed a web start-up company for running assassins games
+      %li
+        Created an advanced
+        -link = "http://www.replylater.com"
+        %a{:href=>link, :title=>link} email reminder service
+        with natural language parsing.
+      %li
+        Created and managed a web based
+        -link = "http://sassins.com"
+        %a{:href=>link, :title=>link} assassins game hosting service.
       %li
         Hosted games for over
         %b 1800 players from 3 different countries

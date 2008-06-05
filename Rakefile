@@ -1,13 +1,9 @@
 require 'rubygems'
-require 'staticmatic'
+require 'rake'
+require '~/staticmatic/lib/tasks/staticmatic'
 
 t = task :default
 t.enhance([:build, :update])
-
-desc 'Builds the static website'
-task :build do
-  exec('staticmatic build .')
-end
 
 task :update do
   puts "rsyncing"

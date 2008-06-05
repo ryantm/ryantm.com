@@ -6,4 +6,5 @@ tmp/**/*
 config/database.yml
 
 site/*.html
-site/stylesheets/*.css
+site/*/*.html
+site/**/*.css
