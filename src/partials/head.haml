@@ -1,0 +1,22 @@
+%head
+  %meta{'http-equiv'=>"Content-Type", :content=>"text/html; charset=UTF-8"}/
+  %meta{:name=>'description', :content=>"Ryan T Mulligan's personal website."}/
+  %meta{:name=>"keywords", :content=>"Ryan Mulligan, Ryan, Mulligan, RyanTM"}/
+
+  -if @fulltitle
+    %title=@fulltitle
+  -elsif @title
+    %title==#{@title} - Ryan Mulligan
+  -else
+    %title Ryan Mulligan
+
+  // Open Id
+  %link{:rel=>"openid.server", :href=>"http://www.myopenid.com/server"}/
+  %link{:rel=>"openid.delegate", :href=>"http://ryantm.myopenid.com"}/
+  %meta{'http-equiv'=>"X-XRDS-Location",:content=>"http://www.myopenid.com/xrds?username=ryantm.myopenid.com"}/
+
+  -rss_href = "http://feeds.feedburner.com/RyanTM"
+  %link{:rel=>"alternate", :type=>"application/rss+xml", :title=>"Ryan Mulligan",:href=>rss_href}
+
+  =stylesheet_link_tag "reset-fonts-grids"
+  =stylesheet_link_tag "application"

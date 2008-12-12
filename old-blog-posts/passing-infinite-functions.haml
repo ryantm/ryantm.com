@@ -1,0 +1,6 @@
+-@title = 'Passing Infinite Functions.'
+%h1=@title
+published at Tue, 24 Apr 2007 22:40:00 +0000
+
+%p
+  Can you write the following code in your language without it hanging?<br /><br />some_function( 5, infinite_loop())<br /><br />You can in Haskell because it is lazy. Which means that it doesn't evaluate things unless it must evaluate them. If some_function only used 5 then infinite_loop would never even get called.

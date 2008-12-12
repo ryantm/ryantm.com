@@ -1,0 +1,21 @@
+-require 'hpricot'
+-summary ||= false
+
+-if !summary
+  -@title = title
+
+-if summary
+  %h2=link_to title, url.chomp("index.html"), :rel=>"bookmark"
+-else
+  %h1=link_to title, url.chomp("index.html"), :rel=>"bookmark"
+
+.pub-date
+  ==published on <abbr class="published" title="#{pubDate.strftime("%Y-%m-%dT%H:%M:%S+00:00")}">#{pubDate.strftime("%d %b %Y")}</abbr>.
+
+-contents = render :partial=>"pages/blog/#{path}"
+-if summary
+  =(Hpricot(contents)/"p").first
+  =link_to "Read more...", url
+-else
+  =contents
+  <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/ryantm/embed.js"></script><noscript><a href="http://ryantm.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>

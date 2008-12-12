@@ -1,0 +1,5 @@
+%h1=link_to "#{feed['title']}", feed['link']
+
+-entries.each do |entry|
+  .entry
+    =render :partial=>entry[:entry_path], :locals=>{:url=>entry[:url], :index=>true}

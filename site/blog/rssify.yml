@@ -1,0 +1,9 @@
+docroot: http://www.ryantm.com/blog
+
+feed:
+  title: Efficient Methods
+  description: Efficient Methods
+  language: en-us
+  link: http://www.ryantm.com/blog/
+  rss_link: www.ryantm.com/blog/feed/
+  author: ryan@ryantm.com (Ryan Mulligan)

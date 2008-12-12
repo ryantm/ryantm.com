@@ -1,0 +1,15 @@
+%h1=link_to "#{feed['title']} Archives", feed['link']
+
+-@ymonth = nil
+-@year   = nil
+-entries.each do |entry|
+  -# group events by month by only writing the header only when it changes.
+  -if  @ymonth != entry[:pubDate].month or @year != entry[:pubDate].year
+    %h3
+      -@ymonth = entry[:pubDate].month
+      -@year = entry[:pubDate].year
+      =entry[:pubDate].strftime("%B %Y")
+  .entry-line-item
+    =entry[:pubDate].strftime("%d %b")
+    =link_to entry[:title].split("-")[0].chomp, entry[:link].split("/")[3..-1].join("/")
+

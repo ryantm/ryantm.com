@@ -1,0 +1,211 @@
+!width         = 1024px
+!main_width    = 700px
+!margin        = 40px
+!sidebar_width = !width - !main_width - !margin
+
+// Pallet
+=light-colors
+  :background-color white
+  :color black
+  a
+    :color #1e466d
+  h1, h2, h3, h4, h5, h6, th
+    :color black
+
+=dark-colors
+  :background-color #f8db30
+  :color black
+  a
+    :color #1e466d
+
+.clearfix:after
+  :content "."
+  :display block
+  :clear both
+  :visibility hidden
+  :line-height 0
+  :height 0
+
+.clearfix
+  :display inline-block
+
+html[xmlns] .clearfix
+  :display block
+
+* html .clearfix
+  :height 1%
+
+
+*
+  :font-family arial, sans-serif
+
+img
+  :border none
+  :display block
+
+a
+  :font-weight bold
+
+table
+  td
+    :vertical-align top
+    :text-align top
+
+.left
+  float: left
+
+.right, .right-image
+  float: right
+
+html
+  :height 100%
+
+body
+  :font-size 100%
+  :height 100%
+
+  h1,h2,h3,h4,h5,h6
+    :margin-bottom 0.5em
+
+  h1
+    :font-size 200%
+  h2
+    :font-size 150%
+  h3
+    :font-size 125%
+
+  ul, ol
+    :text-align left
+    :margin-left 0em
+    :padding-left 10px
+
+  ul li
+    :list-style-type square
+  ol li
+    :list-style-type decimal
+
+  table#maintable
+    :height 100%
+    :width 100%
+    :text-align center
+
+  #banner
+    :border-bottom 2px inset
+    .inner
+      :padding 1em
+      :padding-left 50px
+
+    :width 100%
+    :height 120px
+    :text-align left
+    .logo
+      :font-family Trebuchet
+      :font-size 400%
+
+    ul.navigation
+      li
+        +light-colors
+        :padding 5px
+        :display inline
+        :list-style-type none
+
+  #sidebar
+    +light-colors
+
+    :width = !sidebar_width
+    .inner
+      :padding 2em
+      :line-height 130%
+
+
+    ul.navigation
+      ul
+        :padding-left 1em
+      li
+        :list-style-type none
+        :font-size 200%
+        :line-height 200%
+
+  #main
+    +light-colors
+    :text-align left
+    :line-height 30px
+
+    .inner
+      :overflow hidden
+      :width = !main_width
+      :padding 2em
+      :padding-left 50px
+
+    .left
+      img
+        :margin 0.75em 1em 1em 0
+
+    table.centered
+      :margin-left  auto
+      :margin-right auto
+    table
+      :margin 0.5em 0
+      :border inset 4px
+      td, th
+        :padding 5px
+        :border 2px inset
+        :text-align center
+      th:first-child
+        :text-align right
+
+    ol, ul
+      :padding-left 4em
+
+    code, pre
+      :margin 0.5em 0
+      :overflow auto
+      :font 1em 'Courier New', Courier, Fixed
+
+    .entry + .entry
+      :padding-top 5em
+
+    h2,h3,h4,h5,h6
+      :padding-top 1em
+    h1,h2,h3,h4,h5,h6
+      :font-weight bold
+      :line-height 100%
+
+    p, ol, ul
+      :padding-top 0.5em
+      :padding-bottom 0.5em
+
+    .right-image
+      :margin 0.75em 0 1em 1em
+      .inner-image
+        :text-align center
+        .attribution
+          :font-size 80%
+          :color gray
+
+    b
+      :font-size 110%
+
+    .pub-date
+      :font-weight bold
+      :font-size 80%
+    .entry-line-item
+      :padding 0.5em
+    blockquote
+      :border-left 4px solid gray
+
+      :font-weight bold
+
+      :margin 0.5em 0 0.5em 1em
+      :padding 1em
+
+
+      .attribution
+        :float right
+
+
+  #footer
+    :border-top 2px inset
+    :font-size 120%
+    :padding 1em
+    :height 52px

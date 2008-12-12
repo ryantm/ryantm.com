@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- (c) 2008 Ryan Mulligan All rights reserved. -->
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+    <meta content="Ryan T Mulligan's personal website." name='description' />
+    <meta content='Ryan Mulligan, Ryan, Mulligan, RyanTM' name='keywords' />
+    <title>StaticMatic - Efficient Methods - Ryan Mulligan</title>
+    <!-- / Open Id -->
+    <link href='http://www.myopenid.com/server' rel='openid.server' />
+    <link href='http://ryantm.myopenid.com' rel='openid.delegate' />
+    <meta content='http://www.myopenid.com/xrds?username=ryantm.myopenid.com' http-equiv='X-XRDS-Location' />
+    <link href='http://feeds.feedburner.com/RyanTM' rel='alternate' title='Ryan Mulligan' type='application/rss+xml' />
+    <link href='../stylesheets/reset-fonts-grids.css' media='screen' rel='stylesheet' type='text/css' />
+    <link href='../stylesheets/application.css' media='screen' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+    <table id='maintable'>
+      <tr>
+        <td colspan='3' id='banner'>
+          <div class='inner'>
+            <a class='logo' href='/' title="Ryan Mulligan's homepage">
+              RyanTM.com
+            </a>
+            <h2>Efficient Methods</h2>
+            <!-- /=image_tag "logo.png", :alt=>"Ryan Mulligan" -->
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td id='main'>
+          <div class='inner'>
+            <h1>StaticMatic</h1>
+            published at Mon, 28 May 2007 16:35:00 +0000
+            <p>
+              Going along the lines of my last post there is a new rubygem that is focusing on building a framework for static webpages using haml and sass as it's backbone. It's called <a href="http://rubyforge.org/projects/staticmatic/">StaticMatic</a> and it's a gem so...<br /><br /><pre>sudo gem install staticmatic</pre><br /><br />Then after you get it installed you need to do<br /><br /><pre>staticmatic setup my_app_name<br />staticmatic build my_app_name</pre><br /><br />This will give you a directory structure of my_app_name -> site, src. The site dir contains your site built from the source. So every time you do staticmatic build my_app_name you will be building your site/ dir from your src/ dir. This could use the improvement of a Rakefile to make the directory not matter, so I think I'll be attempting to add my Rakefile into the project.
+            </p>
+          </div>
+        </td>
+        <td id='sidebar'>
+          <div class='inner'>
+            <ul class='navigation'>
+              <li><a href='../'>Home</a></li>
+              <li><a href='../blog'>Blog</a></li>
+              <ul>
+                <li><a href='../blog/archives'>Archives</a></li>
+              </ul>
+              <li><a href='../about.html'>About</a></li>
+              <ul>
+                <li><a href='../resume.html'>Resume</a></li>
+                <li><a href='../contact.html'>Contact</a></li>
+              </ul>
+            </ul>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan='3' id='footer'>
+          All writing (except quotations) on www.ryantm.com is <a href='http://creativecommons.org/licenses/publicdomain/'>dedicated to the public domain</a>.
+        </td>
+      </tr>
+    </table>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-4515791-1");
+    pageTracker._initData();
+    pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

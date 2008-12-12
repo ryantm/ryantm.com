@@ -1,0 +1,6 @@
+-@title = 'StaticMatic'
+%h1=@title
+published at Mon, 28 May 2007 16:35:00 +0000
+
+%p
+  Going along the lines of my last post there is a new rubygem that is focusing on building a framework for static webpages using haml and sass as it's backbone. It's called <a href="http://rubyforge.org/projects/staticmatic/">StaticMatic</a> and it's a gem so...<br /><br /><pre>sudo gem install staticmatic</pre><br /><br />Then after you get it installed you need to do<br /><br /><pre>staticmatic setup my_app_name<br />staticmatic build my_app_name</pre><br /><br />This will give you a directory structure of my_app_name -> site, src. The site dir contains your site built from the source. So every time you do staticmatic build my_app_name you will be building your site/ dir from your src/ dir. This could use the improvement of a Rakefile to make the directory not matter, so I think I'll be attempting to add my Rakefile into the project.
