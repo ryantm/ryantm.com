@@ -11,7 +11,7 @@
     -model('post').each do |post|
       -link = "http://www.ryantm.com/blog/" + post['path']
       %item
-        %pubDate=post['pubDate']
+        %pubDate=post['pubDate'].strftime("%a, %d %b %Y %H:%M:%S PST")
         %guid=link
         %link=link
         %comments=link + "#comments"
