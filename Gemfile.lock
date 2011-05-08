@@ -1,0 +1,14 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    haml (3.1.1)
+    hpricot (0.8.4)
+    sass (3.1.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  haml
+  hpricot
+  sass

@@ -1,6 +1,6 @@
-!total_width = 50em
-!date_width  = 12em
-!info_width  = !total_width - !date_width - 1em
+$total_width: 50em
+$date_width: 12em
+$info_width: $total_width - $date_width - 1em
 
 *
   :margin 0
@@ -10,7 +10,7 @@ body
   :margin 0 auto
   .footer
     :margin-top 5em
-  :width = !total_width
+  width: $total_width
   :font
     :family Verdana
     :size 100%
@@ -42,7 +42,7 @@ body
     .dates
       :font-weight bold
       :float left
-      :width = !date_width
+      width: $date_width
     .info
-      :width = !info_width
+      width: $info_width
       :float right
