@@ -1,7 +1,7 @@
-!width         = 1024px
-!main_width    = 700px
-!margin        = 40px
-!sidebar_width = !width - !main_width - !margin
+$width:         1024px
+$main_width:    700px
+$margin:        40px
+$sidebar_width: $width - $main_width - $margin
 
 // Pallet
 =light-colors
@@ -112,7 +112,7 @@ body
   #sidebar
     +light-colors
 
-    :width = !sidebar_width
+    width: $sidebar_width
     .inner
       :padding 2em
       :line-height 130%
@@ -133,7 +133,7 @@ body
 
     .inner
       :overflow hidden
-      :width = !main_width
+      width: $main_width
       :padding 2em
       :padding-left 50px
 
