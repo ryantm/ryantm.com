@@ -5,9 +5,9 @@
   -@title = title
 
 -if summary
-  %h2=link_to title, url.chomp("index.html"), :rel=>"bookmark"
+  %h2.blog=link_to title, url.chomp("index.html"), :rel=>"bookmark"
 -else
-  %h1=link_to title, url.chomp("index.html"), :rel=>"bookmark"
+  %h1.blog=link_to title, url.chomp("index.html"), :rel=>"bookmark"
 
 .pub-date
   ==published on <abbr class="published" title="#{pubDate.strftime("%Y-%m-%dT%H:%M:%S+00:00")}">#{pubDate.strftime("%d %b %Y")}</abbr>.
@@ -32,4 +32,3 @@
   %div{:style=>"margin-bottom:1.5em;"}
     <a href="http://feeds.feedburner.com/RyanTM" title="Subscribe to my feed" rel="alternate" type="application/rss+xml" style="margin-right:4px;"><img src="http://www.feedburner.com/fb/images/pub/feed-icon32x32.png" alt="" style="border:0;display:inline;"/></a><a href="http://feeds.feedburner.com/RyanTM" title="Subscribe to my feed" rel="alternate" type="application/rss+xml">Subscribe in a reader</a>
 
-  <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/ryantm/embed.js"></script><noscript><a href="http://ryantm.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>

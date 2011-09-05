@@ -1,5 +1,7 @@
 %td#sidebar
   .inner
+    -require 'digest/md5'
+    =image_tag "http://www.gravatar.com/avatar/#{Digest::MD5.hexdigest("ryan@ryantm.com")}?s=150", :alt=>"Ryan Mulligan"
     %ul.navigation
       %li==#{link_to "Home", "/"}
       %li=link_to "Blog", "blog"
@@ -9,3 +11,7 @@
       %ul
         %li=link_to "Resume", "resume.html"
         %li=link_to "Contact", "contact.html"
+      %li
+        -message = "To the extent possible under law, Ryan Mulligan has waved all copyright and related or neighboring rights to www.ryantm.com."
+        %a{:rel=>"license", :href=>"http://creativecommons.org/publicdomain/zero/1.0/", :title=>message}
+          %img{:src=>"http://i.creativecommons.org/p/zero/1.0/88x31.png", :style=>"border-style: none;display:inline-block;", :alt=>"CC0 "+message}<
