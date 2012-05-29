@@ -4,4 +4,3 @@ gem 'rake'
 gem 'hpricot'
 gem 'haml'
 gem 'sass'
-
