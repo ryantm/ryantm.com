@@ -3,7 +3,7 @@ $main_width:    700px
 $margin:        40px
 $sidebar_width: $width - $main_width - $margin
 
-// Pallet
+// Palette
 =light-colors
   :background-color white
   :color black
@@ -49,7 +49,6 @@ a
 table
   td
     :vertical-align top
-    :text-align top
 
 .left
   float: left
@@ -59,6 +58,7 @@ table
 
 html
   :height 100%
+  :padding 1em
 
 body
   :font-size 100%
@@ -84,35 +84,15 @@ body
   ol li
     :list-style-type decimal
 
-  table#maintable
-    :height 100%
-    :width 100%
-    :text-align left
-
   #banner
-    .inner
-      :padding-left 50px
-
-    :width 100%
-    :text-align left
-    .logo
-      :font-family Trebuchet
-      :font-size 200%
-
-    ul.navigation
-      li
-        +light-colors
-        :padding 5px
-        :display inline
-        :list-style-type none
+    font-size: 200%
 
   #sidebar
-    +light-colors
+    float: left
 
-    width: $sidebar_width
-    .inner
-      padding: 0em 2em 2em 2em
-      line-height: 130%
+    +light-colors
+    padding: 0em 2em 2em 2em
+    line-height: 130%
 
 
     ul.navigation
@@ -123,16 +103,16 @@ body
         :font-size 200%
         :line-height 200%
 
+  #content
+    float: left
+    width: 70%
+
   #main
     +light-colors
-    :text-align left
-    :line-height 30px
+    text-align: left
+    line-height: 30px
 
-    .inner
-      overflow: hidden
-      width: $main_width
-      padding: 0em 2em 2em 2em
-      padding-left: 50px
+    overflow: hidden
 
     .left
       img
@@ -142,11 +122,12 @@ body
       :margin-left  auto
       :margin-right auto
     table
+      border-collapse: collapse
       :margin 0.5em 0
-      :border inset 4px
       td, th
         :padding 5px
-        :border 2px inset
+        :border 1px solid
+        :border-color #AAAAAA
         :text-align left
       th:first-child
         :text-align right
@@ -205,13 +186,5 @@ body
       :margin 0.5em 0 0.5em 1em
       :padding 1em
 
-
       .attribution
         :float right
-
-
-  #footer
-    :border-top 2px inset
-    :font-size 120%
-    :padding 1em
-    :height 52px
