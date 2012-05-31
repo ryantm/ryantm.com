@@ -3,12 +3,10 @@
 %html{lang:"en"}
   =render :partial => 'partials/head'
   %body
-    #banner
-      %a{:href=>"/",:title=>"Ryan Mulligan's homepage"}
-        Ryan Mulligan
-    #main
-      #content=yield
-      =render  :partial => 'partials/sidebar'
+    %table#main
+      %tr
+        =render partial: 'partials/sidebar'
+        %td#content=yield
     <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
     document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
