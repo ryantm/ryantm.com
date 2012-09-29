@@ -5,7 +5,5 @@ log/*.log
 tmp/**/*
 config/database.yml
 
-site/*.html
-site/**/*.html
-site/**/*.css
+site
 .sass-cache

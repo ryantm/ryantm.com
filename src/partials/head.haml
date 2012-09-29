@@ -1,5 +1,5 @@
 %head
-  %meta{'http-equiv'=>"Content-Type", :content=>"text/html; charset=UTF-8"}/
+  %meta{charset:"UTF-8"}
   %meta{:name=>'description', :content=>"Ryan T Mulligan's personal website."}/
   %meta{:name=>"keywords", :content=>"Ryan Mulligan, Ryan, Mulligan, RyanTM"}/
 
@@ -21,5 +21,6 @@
   -rss_href = "http://feeds.feedburner.com/RyanTM"
   %link{:rel=>"alternate", :type=>"application/rss+xml", :title=>"Ryan Mulligan",:href=>rss_href}
 
-  =stylesheet_link_tag "reset-fonts-grids"
+  %link{rel:"stylesheet", media:"screen", href:"http://openfontlibrary.org/face/alegreya", rel:"stylesheet", type:"text/css"}
+  %link{rel:"stylesheet", media:"screen", href:"http://openfontlibrary.org/face/niharika", rel:"stylesheet", type:"text/css"}
   =stylesheet_link_tag "application"

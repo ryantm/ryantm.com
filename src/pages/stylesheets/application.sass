@@ -1,9 +1,4 @@
-$width:         1024px
-$main_width:    700px
-$margin:        40px
-$sidebar_width: $width - $main_width - $margin
-
-// Pallet
+// Palette
 =light-colors
   :background-color white
   :color black
@@ -35,9 +30,8 @@ html[xmlns] .clearfix
 * html .clearfix
   :height 1%
 
-
 *
-  :font-family arial, sans-serif
+  font-family: sans-serif
 
 img
   :border none
@@ -49,7 +43,6 @@ a
 table
   td
     :vertical-align top
-    :text-align top
 
 .left
   float: left
@@ -59,6 +52,7 @@ table
 
 html
   :height 100%
+  :padding 1em
 
 body
   :font-size 100%
@@ -74,9 +68,6 @@ body
   h3
     :font-size 125%
 
-  h1.blog,h2.blog
-    :margin-bottom 0em
-
   ul, ol
     :text-align left
     :margin-left 0em
@@ -87,73 +78,40 @@ body
   ol li
     :list-style-type decimal
 
-  table#maintable
-    :height 100%
-    :width 100%
-    :text-align center
-
-  #banner
-    .inner
-      :padding 1em
-      :padding-left 50px
-
-    :width 100%
-    :height 120px
-    :text-align left
-    .logo
-      :font-family Trebuchet
-      :font-size 400%
-
-    ul.navigation
-      li
-        +light-colors
-        :padding 5px
-        :display inline
-        :list-style-type none
-
   #sidebar
+    font-size: 200%
+    line-height: 200%
     +light-colors
-
-    width: $sidebar_width
-    .inner
-      :padding 2em
-      :line-height 130%
-
-
+    padding: 0em 2em 2em 2em
+    line-height: 130%
     ul.navigation
+      padding-left: 0em
       ul
-        :padding-left 1em
+        padding-left: 0.5em
       li
-        :list-style-type none
-        :font-size 200%
-        :line-height 200%
+        list-style-type: none
+
+  #content
+    p, ol, ul
+      width: 30em
 
   #main
     +light-colors
-    :text-align left
-    :line-height 30px
+    text-align: left
+    line-height: 30px
 
-    .inner
-      :overflow hidden
-      width: $main_width
-      :padding 2em
-      :padding-left 50px
+    overflow: hidden
 
     .left
       img
         :margin 0.75em 1em 1em 0
-
-    table.centered
-      :margin-left  auto
-      :margin-right auto
     table
+      border-collapse: collapse
       :margin 0.5em 0
-      :border 4px
       td, th
         :padding 5px
-        :padding-left 1em
-        :padding-right 1em
-        :border 2px inset
+        :border 1px solid
+        :border-color #AAAAAA
         :text-align left
       th:first-child
         :text-align right
@@ -184,6 +142,11 @@ body
       :font-weight bold
       :line-height 100%
 
+    p,li,td
+      font-family: georgia, 'alegreya','niharika', georgia, "times new roman", times, serif
+      font-weight: normal
+      font-style: normal
+
     p, ol, ul
       :padding-top 0.5em
       :padding-bottom 0.5em
@@ -212,13 +175,5 @@ body
       :margin 0.5em 0 0.5em 1em
       :padding 1em
 
-
       .attribution
         :float right
-
-
-  #footer
-    :border-top 2px inset
-    :font-size 120%
-    :padding 1em
-    :height 52px
