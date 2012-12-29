@@ -1,1 +1,1 @@
-/home/ryan/git/rswg/Rakefile
+rswg/Rakefile
