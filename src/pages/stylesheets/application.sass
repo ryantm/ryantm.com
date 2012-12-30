@@ -1,54 +1,48 @@
-$width: 1024px
-$main_width: 700px
-$margin: 40px
-$sidebar_width: $width - $main_width - $margin
-
-// Pallet
+// Palette
 =light-colors
-  background-color: white
-  color: black
+  :background-color white
+  :color black
   a
-    color: #1e466d
+    :color #1e466d
   h1, h2, h3, h4, h5, h6, th
-    color: black
+    :color black
 
 =dark-colors
-  background-color: #f8db30
-  color: black
+  :background-color #f8db30
+  :color black
   a
-    color: #1e466d
+    :color #1e466d
 
 .clearfix:after
-  content: "."
-  display: block
-  clear: both
-  visibility: hidden
-  line-height: 0
-  height: 0
+  :content "."
+  :display block
+  :clear both
+  :visibility hidden
+  :line-height 0
+  :height 0
 
 .clearfix
-  display: inline-block
+  :display inline-block
 
 html[xmlns] .clearfix
-  display: block
+  :display block
 
 * html .clearfix
-  height: 1%
+  :height 1%
 
 *
-  font-family: arial, sans-serif
+  font-family: sans-serif
 
 img
-  border: none
-  display: block
+  :border none
+  :display block
 
 a
-  font-weight: bold
+  :font-weight bold
 
 table
   td
-    vertical-align: top
-    text-align: top
+    :vertical-align top
 
 .left
   float: left
@@ -57,132 +51,129 @@ table
   float: right
 
 html
-  height: 100%
+  :height 100%
+  :padding 1em
 
 body
-  font-size: 100%
-  height: 100%
+  :font-size 100%
+  :height 100%
+
   h1,h2,h3,h4,h5,h6
-    margin-bottom: 0.5em
+    :margin-bottom 0.5em
+
   h1
-    font-size: 200%
+    :font-size 200%
   h2
-    font-size: 150%
+    :font-size 150%
   h3
-    font-size: 125%
+    :font-size 125%
+
   ul, ol
-    text-align: left
-    margin-left: 0em
-    padding-left: 10px
+    :text-align left
+    :margin-left 0em
+    :padding-left 10px
+
   ul li
-    list-style-type: square
+    :list-style-type square
   ol li
-    list-style-type: decimal
-  table#maintable
-    height: 100%
-    width: 100%
-    text-align: center
-  #banner
-    border-bottom: 2px inset
-    .inner
-      padding: 1em
-      padding-left: 50px
-    width: 100%
-    height: 120px
-    text-align: left
-    .logo
-      font-family: Trebuchet
-      font-size: 400%
-    ul.navigation
-      li
-        +light-colors
-        padding: 5px
-        display: inline
-        list-style-type: none
+    :list-style-type decimal
+
   #sidebar
+    font-size: 200%
+    line-height: 200%
     +light-colors
-    width: $sidebar_width
-    .inner
-      padding: 2em
-      line-height: 130%
+    padding: 0em 2em 2em 2em
+    line-height: 130%
     ul.navigation
+      padding-left: 0em
       ul
-        padding-left: 1em
+        padding-left: 0.5em
       li
         list-style-type: none
-        font-size: 200%
-        line-height: 200%
+
+  #content
+    p, ol, ul
+      width: 30em
+
   #main
     +light-colors
     text-align: left
     line-height: 30px
-    .inner
-      overflow: hidden
-      width: $main_width
-      padding: 2em
-      padding-left: 50px
+
+    overflow: hidden
+
     .left
       img
-        margin: 0.75em 1em 1em 0
-    table.centered
-      margin-left: auto
-      margin-right: auto
+        :margin 0.75em 1em 1em 0
     table
-      margin: 0.5em 0
-      border: inset 4px
+      border-collapse: collapse
+      :margin 0.5em 0
       td, th
-        padding: 5px
-        border: 2px inset
-        text-align: center
+        :padding 5px
+        :border 1px solid
+        :border-color #AAAAAA
+        :text-align left
       th:first-child
-        text-align: right
+        :text-align right
+
     ol, ul
-      padding-left: 4em
+      :padding-left 4em
+
     code, pre
-      margin: 0.5em 0
-      overflow: auto
-      font: 1em "Courier New", Courier, Fixed
+      :margin 0.5em 0
+      :overflow auto
+      :font 1em 'Courier New', Courier, Fixed
+
     dl
-      margin: 0.5em 0
+      :margin 0.5em 0
       dt
-        font-weight: bold
-        font-style: italic
+        :font-weight bold
+        :font-style italic
       dd
-        margin-left: 1em
-        margin-bottom: 0.5em
+        :margin-left 1em
+        :margin-bottom 0.5em
+
     .entry + .entry
-      padding-top: 5em
+      :padding-top 5em
+
     h2,h3,h4,h5,h6
-      padding-top: 1em
+      :padding-top 1em
     h1,h2,h3,h4,h5,h6
-      font-weight: bold
-      line-height: 100%
+      :font-weight bold
+      :line-height 100%
+
+    p,li,td
+      font-family: georgia, 'alegreya','niharika', georgia, "times new roman", times, serif
+      font-weight: normal
+      font-style: normal
+
     p, ol, ul
-      padding-top: 0.5em
-      padding-bottom: 0.5em
+      :padding-top 0.5em
+      :padding-bottom 0.5em
+
     .right-image
-      margin: 0.75em 0 1em 1em
+      :margin 0.75em 0 1em 1em
       .inner-image
-        text-align: center
+        :text-align center
         .attribution
-          font-size: 80%
-          color: gray
+          :font-size 80%
+          :color gray
+
     b
-      font-size: 110%
+      :font-size 110%
+
     .pub-date
-      font-weight: bold
-      font-size: 80%
+      :font-weight bold
+      :font-size 80%
     .entry-line-item
-      padding: 0.5em
+      :padding 0.5em
     blockquote
-      border-left: 4px solid gray
-      font-weight: bold
-      margin: 0.5em 0 0.5em 1em
-      padding: 1em
+      :border-left 4px solid gray
+
+      :font-weight bold
+
+      :margin 0.5em 0 0.5em 1em
+      :padding 1em
+
       .attribution
-        float: right
-  #footer
-    border-top: 2px inset
-    font-size: 120%
-    padding: 1em
-    height: 52px
+        :float right
