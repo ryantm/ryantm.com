@@ -5,6 +5,6 @@ log/*.log
 tmp/**/*
 config/database.yml
 
-site/*.html
-site/*/*.html
-site/**/*.css
+site/
+/.sass-cache/74892a93e838fa56188edff285b0add39173525f/application.sassc
+/.sass-cache/74892a93e838fa56188edff285b0add39173525f/resume.sassc
