@@ -5,13 +5,9 @@
   =image_tag "http://www.gravatar.com/avatar/#{Digest::MD5.hexdigest("ryan@ryantm.com")}?s=150", :alt=>"Ryan Mulligan"
   %ul.navigation
     %li==#{link_to "Home", "/"}
-    %li=link_to "Blog", "blog"
-    %ul
-      %li=link_to "Archives", "blog/archives"
-    %li==#{link_to "About", "about.html"}
-    %ul
-      %li=link_to "Resume", "resume.html"
-      %li=link_to "Contact", "contact.html"
+    %li=link_to "Articles", "http://blog.ryantm.com"
+    %li=link_to "Older Articles", "blog/archives"
+    %li=link_to "Resume", "resume.html"
     %li
-      %a{href: 'http://creativecommons.org/publicdomain/zero/1.0/', rel:'license', title:'To the extent possible under law, Ryan Mulligan has waved all copyright and related or neighboring rights to www.ryantm.com.'}
-      %img{alt:'CC0 To the extent possible under law, Ryan Mulligan has waved all copyright and related or neighboring rights to www.ryantm.com.', src:'http://i.creativecommons.org/p/zero/1.0/88x31.png', style:'border-style: none;display:inline-block;'}/ 
+      %a{href: 'http://creativecommons.org/publicdomain/zero/1.0/', rel:'license', title:'To the extent possible under law, Ryan Mulligan has waived all copyright and related or neighboring rights to www.ryantm.com.'}
+      %img{alt:'CC0 To the extent possible under law, Ryan Mulligan has waived all copyright and related or neighboring rights to www.ryantm.com.', src:'http://i.creativecommons.org/p/zero/1.0/88x31.png', style:'border-style: none;display:inline-block;'}/ 
