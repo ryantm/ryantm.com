@@ -11,7 +11,7 @@
 
 %p Downloaded subscriptions.xml OPML file from Google. Configure rss2email on the server to send email to the email address prepared for RSS reading. (I suspect you can use Gmail or some other webmail provider. I used a mailbox on the same server using Dovecot and Postfix.)
 %pre
-  r2e new EMAILADRESS
+  r2e new EMAILADDRESS
   r2e opmlimport subscriptions.xml
 %p
   If you want all of the RSS entries that are currently in your feeds, to show up in your inbox
