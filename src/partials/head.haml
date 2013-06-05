@@ -1,7 +1,7 @@
 %head
   %meta{charset:"UTF-8"}
-  %meta{:name=>'description', :content=>"Ryan T Mulligan's personal website."}/
-  %meta{:name=>"keywords", :content=>"Ryan Mulligan, Ryan, Mulligan, RyanTM"}/
+  %meta{:name=>'description', :content=>"Ryan Mulligan's personal website."}/
+  %meta{:name=>"keywords", :content=>"Ryan Mulligan, Ryan, Mulligan, ryantm"}/
 
   -if @fulltitle
     %title=@fulltitle
@@ -10,16 +10,7 @@
   -else
     %title Ryan Mulligan
 
-  // Open Id
+  // OpenID
   %link{href:'http://openid.yubico.com/server.php', rel:'openid.server'}
   %link{href:'http://openid.yubico.com/server.php/idpage?user=cccccccuvluk', rel:'openid.delegate'}
-  // my open id
-  //%link{:rel=>"openid.server", :href=>"http://www.myopenid.com/server"}/
-  //%link{:rel=>"openid.delegate", :href=>"http://ryantm.myopenid.com"}/
-  //%meta{'http-equiv'=>"X-XRDS-Location",:content=>"http://www.myopenid.com/xrds?username=ryantm.myopenid.com"}/
-  -rss_href = "http://feeds.feedburner.com/RyanTM"
-  %link{:rel=>"alternate", :type=>"application/rss+xml", :title=>"Ryan Mulligan",:href=>rss_href}
-
-  %link{rel:"stylesheet", media:"screen", href:"http://openfontlibrary.org/face/alegreya", rel:"stylesheet", type:"text/css"}
-  %link{rel:"stylesheet", media:"screen", href:"http://openfontlibrary.org/face/niharika", rel:"stylesheet", type:"text/css"}
   =stylesheet_link_tag "application"
