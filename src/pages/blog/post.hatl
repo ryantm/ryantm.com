@@ -9,8 +9,6 @@
 -else
   %h1=link_to title, url.chomp("index.html"), :rel=>"bookmark"
 
-.byline
-  ==by Ryan Mulligan
 .pub-date
   ==published on <abbr class="published" title="#{pubDate.strftime("%Y-%m-%dT%H:%M:%S+00:00")}">#{pubDate.strftime("%d %b %Y")}</abbr>.
 

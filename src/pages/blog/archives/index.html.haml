@@ -1,4 +1,4 @@
-%h1=link_to "Blog Archives", "/blog/archives"
+%h1=link_to "Articles", "/blog/archives"
 
 -ymonth = nil
 -year   = nil
@@ -11,6 +11,5 @@
       -year = post['pubDate'].year
       =post['pubDate'].strftime("%B %Y")
   .entry-line-item
-    =post['pubDate'].strftime("%d %b")
     =link_to post['title'], "blog/#{post['path']}/"
 

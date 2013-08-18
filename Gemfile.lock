@@ -13,6 +13,8 @@ GEM
     guard-rake (0.0.9)
       guard
       rake
+    guard-shell (0.5.1)
+      guard (>= 1.1.0)
     haml (4.0.3)
       tilt
     hpricot (0.8.6)
@@ -46,6 +48,7 @@ PLATFORMS
 DEPENDENCIES
   guard
   guard-rake
+  guard-shell
   haml
   hpricot
   libnotify
