@@ -5,7 +5,7 @@
 =image_tag "http://www.gravatar.com/avatar/#{Digest::MD5.hexdigest("ryan@ryantm.com")}?s=150", :alt=>"Ryan Mulligan"
 %nav
   %ul
-    %li==#{link_to "Home", "/"}
+    %li=link_to "Home", ""
     %li=link_to "Articles", "blog/archives"
     %li
       %a{href: 'http://creativecommons.org/publicdomain/zero/1.0/', rel:'license', title:'To the extent possible under law, Ryan Mulligan has waived all copyright and related or neighboring rights to www.ryantm.com.'}
