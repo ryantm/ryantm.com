@@ -1,5 +1,6 @@
-%a{:href=>"/",:title=>"Ryan Mulligan's homepage"}
-  Ryan Mulligan
+%h1
+  %a{:href=>"/",:title=>"Ryan Mulligan's homepage"}
+    Ryan Mulligan
 -require 'digest/md5'
 =image_tag "http://www.gravatar.com/avatar/#{Digest::MD5.hexdigest("ryan@ryantm.com")}?s=150", :alt=>"Ryan Mulligan"
 %nav

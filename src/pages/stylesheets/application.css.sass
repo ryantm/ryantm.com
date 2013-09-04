@@ -16,7 +16,7 @@ img
 
 html
   :height 100%
-  :padding 1em
+  :padding-top 1em
 
 body
   +light-colors
@@ -31,10 +31,10 @@ body
       font-family: sans-serif
 
   #sidebar
-    float: left
+    padding-left: 1em
+    position: absolute
     width: 10em
     height: 100%
-    padding: 0em 2em 2em 2em
     nav
       padding-left: 0em
       ul
@@ -43,7 +43,8 @@ body
         list-style-type: none
 
   #content
-    float: left
+    position: absolute
+    left: 11em
     padding-bottom: 35em
     text-align: left
     width: 30em
