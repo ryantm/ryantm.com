@@ -74,7 +74,7 @@ Alright, so now here's the snippet that shows persistent sockets:
     end
 
 %p
-  When the program is first run it prints 'Started.' Then it opens a socket to Google and requests the homepage. Then it waits indefinitely until it receives the INT signal (CTRL-C or kill -term PID). After that it runs exec which spawns a new program in the place of the current one. It spawns the same program, with additional command line arguments "restart #{fileno}." When the program starts again these additional arguments make it follow the other path, which uses IO.open(file_descriptor) to open the file descriptor from the file descriptor number that we passed in on the exec line. Then it reads the socket Kernel buffer, which already contains the Google homepage.
+  When the program is first run it prints 'Started.' Then it opens a socket to Google and requests the homepage. Then it waits indefinitely until it receives the INT signal (CTRL-C or kill -term PID). After that it runs exec which spawns a new program in the place of the current one. It spawns the same program, with additional command line arguments "restart fileno." When the program starts again these additional arguments make it follow the other path, which uses IO.open(file_descriptor) to open the file descriptor from the file descriptor number that we passed in on the exec line. Then it reads the socket Kernel buffer, which already contains the Google homepage.
 
 %p
   And there you have it, a socket that persists beyond a single program.

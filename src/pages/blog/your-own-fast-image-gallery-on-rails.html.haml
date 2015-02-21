@@ -1,15 +1,11 @@
--@title = 'Your Own Fast Image Gallery on Rails'
-%h1=@title
-published at Tue, 08 Apr 2008 18:10:21 +0000
-
 %p
-  If you've ever used Facebook's photo application you might have wondered how they make the images go so fast. Since I wanted to have fast viewing of our snapshot galleries over at <a href="http://www.brawlsnapshots.com" title="Brawl Snapshots">Brawl Snapshots</a>, I set out to figure out how to do it.
+  If you've ever used Facebook's photo application you might have wondered how they make the images go so fast. Since I wanted to have fast viewing of our snapshot galleries over at Brawl Snapshots, I set out to figure out how to do it.
 
 %p
   The main component of a fast gallery is caching. By telling the browser to load images in hidden divs before they are actually displayed to the user, the browser cache is primed for the quick switch.
 
 %p
-  The way you request these images in the background is the meat of the problem and the solution depends on what you are trying to do. With Facebook, each gallery has a limited number of photos in it, so Facebook loads all of the imag URLs, comments, and other meta data when you look at the first photo in the gallery. In the case of <a href="http://www.brawlsnapshots.com" title="Brawl Snapshots">Brawl Snapshots</a> this approach wouldn't work because some of our galleries have over 4000 images in them. Loading and rendering the meta-data for 4000 images just to view one would be a little wasteful.
+  The way you request these images in the background is the meat of the problem and the solution depends on what you are trying to do. With Facebook, each gallery has a limited number of photos in it, so Facebook loads all of the imag URLs, comments, and other meta data when you look at the first photo in the gallery. In the case of Brawl Snapshots this approach wouldn't work because some of our galleries have over 4000 images in them. Loading and rendering the meta-data for 4000 images just to view one would be a little wasteful.
 
 <a href="http://www.ryantm.com/images/fast-gallery-requests.png">
 <img src="http://www.ryantm.com/images/fast-gallery-requests.png" alt="Firebug shows AJAX requests from visiting one image" height="61" width="522" /> Fig 1: Firebug shows AJAX requests from visiting one image</a>
@@ -17,7 +13,7 @@ published at Tue, 08 Apr 2008 18:10:21 +0000
 %p
   So instead of loading all the data up front I opted to use some AJAX requests to populate my cache as needed. When you go to a image in the Brawl Snapshot Gallery, it first loads the image you are on then it uses AJAX to asynchronously load the next and previous image in the background. After those finish we load the next's next and previous's previous image as well (see figure 1). This gives our viewers a buffer of two really quick images, which gives us ample time to load some more for all but the quickest users.
 %p
-  Time to get into the code, most of our fast gallery implementation is available at <a href="http://www.brawlsnapshots.com/javascripts/fast.js" title="Fast Javascript Gallery">http://www.brawlsnapshots.com/javascripts/fast.js</a>. I will try to explain the essential components.
+  I will try to explain the essential components.
 
 %h3 1. The Populator (populates the cache when needed)
 

@@ -1,21 +1,6 @@
--require 'hpricot'
--summary ||= false
-
--if !summary
-  -@title = title
-
--if summary
-  %h2=link_to title, url.chomp("index.html"), :rel=>"bookmark"
--else
-  %h1=link_to title, url.chomp("index.html"), :rel=>"bookmark"
-
--contents = render :partial=>"pages/blog/#{path}"
--if summary
-  -paragraphs = (Hpricot(contents)/"p")
-  =paragraphs.first
-  -if paragraphs.size > 1
-    =link_to "Read more.", url
-  -else
-    =link_to "Permanent link", url
--else
-  =contents
+-@title = title
+%h1=link_to title, url.chomp("index.html"), :rel=>"bookmark"
+=render :partial=>"pages/blog/#{path}"
+.published
+  published
+  =pubDate.strftime "%Y-%m-%d"
