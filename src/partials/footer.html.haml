@@ -1,3 +1,9 @@
-%td#footer{:colspan=>3}
-  ==All writing (except quotations and comments) on www.ryantm.com is #{link_to "dedicated to the public domain", "http://creativecommons.org/licenses/publicdomain/"}.
-
+%a{:href=>"/",:title=>"Ryan Mulligan's homepage"} Ryan Mulligan
+-require 'digest/md5'
+%a{href: "/"}
+  =image_tag "http://www.gravatar.com/avatar/#{Digest::MD5.hexdigest("ryan@ryantm.com")}?s=150", alt: "Ryan Mulligan", height: 150
+=link_to "Home", ""
+=link_to "Articles", "blog/archives"
+%a{href: 'http://creativecommons.org/publicdomain/zero/1.0/', rel:'license', title:'To the extent possible under law, Ryan Mulligan has waived all copyright and related or neighboring rights to www.ryantm.com.'}
+  -alt_and_title = 'CC0 To the extent possible under law, Ryan Mulligan has waived all copyright and related or neighboring rights to www.ryantm.com.'
+  %img{alt: alt_and_title, title: alt_and_title, height: 31, src:'http://i.creativecommons.org/p/zero/1.0/88x31.png'}
