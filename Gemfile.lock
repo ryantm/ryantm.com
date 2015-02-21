@@ -36,6 +36,7 @@ GEM
       ffi (>= 0.5.0)
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
+    rb-readline (0.5.2)
     ruby-prof (0.13.0)
     sass (3.2.9)
     slop (3.4.5)
@@ -54,5 +55,6 @@ DEPENDENCIES
   libnotify
   rake
   rb-inotify
+  rb-readline
   ruby-prof
   sass

@@ -10,3 +10,4 @@ gem 'guard-shell'
 gem 'rb-inotify' # for Guard
 gem 'libnotify' # for Guard
 gem 'ruby-prof'
+gem 'rb-readline'
