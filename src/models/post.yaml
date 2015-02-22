@@ -144,6 +144,11 @@
   author: ryan@ryantm.com (Ryan Mulligan)
   pubDate: 2008-10-05T20:00:00-06:00
 -
+  path: lsof-lists-open-file-descriptors
+  title: lsof Lists Open File Descriptors
+  author: ryan@ryantm.com (Ryan Mulligan)
+  pubDate: 2008-06-30
+-
   path: ruby-socket-persistence
   title: Ruby Socket Persistence
   author: ryan@ryantm.com (Ryan Mulligan)
