@@ -1,7 +1,3 @@
--@title = 'Ruby Socket Persistence'
-%h1=@title
-published at Fri, 11 Jul 2008 21:22:12 +0000
-
 %p
   It's surprisingly simple to persist your socket connections while restarting a Ruby program. The key lies in understand how Ruby handles file descriptors. A file descriptor is a number that represents an open file that is buffered in the OS Kernel. Now I've only tried this technique on Linux so I don't know if it works on Windows, so chime in on the comments if it does or does not work. Let's start by exploring file descriptors a little bit so we can improve our Linux knowledge. If you want immediate gratification you can skip down to the bottom-most snippet.
 
@@ -43,8 +39,8 @@ published at Fri, 11 Jul 2008 21:22:12 +0000
   irb     5645 ryan    2u   CHR   136,1               3 /dev/pts/1
   irb     5645 ryan    3u  IPv4 1897889             TCP rtmlap.local:45854-&gt;jc-in-f99.google.com:www (ESTABLISHED)
 
-
-Alright, so now here's the snippet that shows persistent sockets:
+%p
+  Alright, so now here's the snippet that shows persistent sockets:
 
 %pre
   :plain
