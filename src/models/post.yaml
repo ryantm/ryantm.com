@@ -155,9 +155,24 @@
   pubDate: 2008-07-11
 -
   path: delegating-your-openid-authentication-doesnt-work-with-drupal-6
-  title: Delegating Your OpenID Authentication Doesn't work with Drupal 6
+  title: Delegating Your OpenID Authentication Doesn't Work With Drupal 6
   author: ryan@ryantm.com (Ryan Mulligan)
   pubDate: 2008-05-29
+-
+  path: haml-why-you-should-use-it
+  title: "Haml: Why You Should Use It"
+  author: ryan@ryantm.com (Ryan Mulligan)
+  pubDate: 2008-05-25
+-
+  path: email-reminder-scheduler-replylatercom
+  title: Email Reminder Scheduler - ReplyLater.com
+  author: ryan@ryantm.com (Ryan Mulligan)
+  pubDate: 2008-05-14
+-
+  path: google-accounts-sucks
+  title: Google Accounts Sucks
+  author: ryan@ryantm.com (Ryan Mulligan)
+  pubDate: 2008-04-09
 -
   path: your-own-fast-image-gallery-on-rails
   title: Your Own Fast Image Gallery on Rails
@@ -213,6 +228,16 @@
   title: Orson Welles Narrates a Cartoon
   author: ryan@ryantm.com (Ryan Mulligan)
   pubDate: 2007-06-21
+-
+  path: duct-tape-marketing
+  title: Duct Tape Marketing
+  author: ryan@ryantm.com (Ryan Mulligan)
+  pubDate: 2007-06-05
+-
+  path: haml-and-sass-rakefile
+  title: Haml and Sass Rakefile
+  author: ryan@ryantm.com (Ryan Mulligan)
+  pubDate: 2007-05-27
 -
   path: muding-website
   title: MUDing Website
