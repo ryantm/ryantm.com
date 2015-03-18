@@ -4,3 +4,12 @@
 .published
   published
   =pubDate.strftime "%Y-%m-%d"
+
+-if defined? next_model and next_model
+  .next_article
+    %p Next article
+    %p #{link_to next_model["title"], next_model[:local_page_link_url]}
+-if defined? prev_model and prev_model
+  .previous_article
+    %p Previous article
+    %p #{link_to prev_model["title"], prev_model[:local_page_link_url]}
