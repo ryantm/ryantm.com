@@ -13,3 +13,7 @@
   .previous_article
     %p Previous article
     %p #{link_to prev_model["title"], prev_model[:local_page_link_url]}
+
+%p
+  Questions or Feedback? Email #{email} or tweet
+  #{link_to "@ryantm", "https://www.twitter.com/ryantm"}.
