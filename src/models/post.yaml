@@ -1,4 +1,9 @@
 -
+  path: nixops-without-sharing
+  title: "Nixops without sharing"
+  author: ryan@ryantm.com (Ryan Mulligan)
+  pubDate: 2017-10-18
+-
   path: add-on-habit-screen-time-equals-exercise-time
   title: "Add on Habit: Screen Time Equals Exercise Time"
   author: ryan@ryantm.com (Ryan Mulligan)
