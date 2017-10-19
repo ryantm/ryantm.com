@@ -1,5 +1,13 @@
-with (import <nixpkgs> {}).pkgs;
+with (import <nixpkgs> {});
 let
-  pkg = callPackage (import ./default.nix) { };
-in
-  pkg
+  env = bundlerEnv {
+    name = "rtm-bundler-env";
+    inherit ruby;
+    gemfile  = ./Gemfile;
+    lockfile = ./Gemfile.lock;
+    gemset   = ./gemset.nix;
+  };
+in stdenv.mkDerivation {
+  name = "rtm";
+  buildInputs = [ env ];
+}
