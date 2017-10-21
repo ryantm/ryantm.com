@@ -1,2 +1,35 @@
 %p
-  Here is a rakefile I cooked up for generating a website form static haml and sass files.<br /><br /><pre><span class=ident>require</span> <span class=punct>'</span><span class=string>haml/engine</span><span class=punct>'</span><br /><span class=ident>require</span> <span class=punct>'</span><span class=string>sass/engine</span><span class=punct>'</span><br /><br /><span class=ident>task</span> <span class=symbol>:default</span> <span class=punct>=&gt;</span> <span class=punct>[</span><span class=symbol>:web</span><span class=punct>]</span><br /><span class=ident>task</span> <span class=symbol>:web</span> <span class=punct>=&gt;</span> <span class=punct>[</span><span class=symbol>:haml</span><span class=punct>,</span><span class=symbol>:sass</span><span class=punct>]</span><br /><br /><span class=ident>desc</span> <span class=punct>'</span><span class=string>Compile haml templates to html</span><span class=punct>'</span><br /><span class=ident>task</span> <span class=symbol>:haml</span> <span class=keyword>do</span><br />  <span class=ident>dirs</span> <span class=punct>=</span>  <span class=constant>Dir</span><span class=punct>['</span><span class=string>**/*.haml</span><span class=punct>']</span><br />  <span class=ident>dirs</span><span class=punct>.</span><span class=ident>each</span> <span class=keyword>do</span> <span class=punct>|</span><span class=ident>f</span><span class=punct>|</span><br />    <span class=constant>File</span><span class=punct>.</span><span class=ident>open</span><span class=punct>(</span><span class=ident>f</span><span class=punct>,</span> <span class=punct>'</span><span class=string>r</span><span class=punct>')</span> <span class=keyword>do</span> <span class=punct>|</span><span class=ident>fi</span><span class=punct>|</span><br />      <span class=constant>File</span><span class=punct>.</span><span class=ident>open</span><span class=punct>(</span><span class=ident>f</span><span class=punct>.</span><span class=ident>gsub</span><span class=punct>('</span><span class=string>haml</span><span class=punct>','</span><span class=string>html</span><span class=punct>'),'</span><span class=string>w</span><span class=punct>')</span> <span class=keyword>do</span> <span class=punct>|</span><span class=ident>d</span><span class=punct>|</span><br />        <span class=ident>d</span> <span class=punct>&lt;&lt;</span> <span class=constant>Haml</span><span class=punct>::</span><span class=constant>Engine</span><span class=punct>.</span><span class=ident>new</span><span class=punct>(</span><span class=ident>fi</span><span class=punct>.</span><span class=ident>read</span><span class=punct>).</span><span class=ident>to_html</span><br />      <span class=keyword>end</span><br />    <span class=keyword>end</span><br />  <span class=keyword>end</span><br /><span class=keyword>end</span><br /><br /><span class=ident>desc</span> <span class=punct>'</span><span class=string>Compile sass templates to css</span><span class=punct>'</span><br /><span class=ident>task</span> <span class=symbol>:sass</span> <span class=keyword>do</span><br />  <span class=ident>dirs</span> <span class=punct>=</span>  <span class=constant>Dir</span><span class=punct>['</span><span class=string>**/*.sass</span><span class=punct>']</span><br />  <span class=ident>dirs</span><span class=punct>.</span><span class=ident>each</span> <span class=keyword>do</span> <span class=punct>|</span><span class=ident>f</span><span class=punct>|</span><br />    <span class=constant>File</span><span class=punct>.</span><span class=ident>open</span><span class=punct>(</span><span class=ident>f</span><span class=punct>,</span> <span class=punct>'</span><span class=string>r</span><span class=punct>')</span> <span class=keyword>do</span> <span class=punct>|</span><span class=ident>fi</span><span class=punct>|</span><br />      <span class=constant>File</span><span class=punct>.</span><span class=ident>open</span><span class=punct>(</span><span class=ident>f</span><span class=punct>.</span><span class=ident>gsub</span><span class=punct>('</span><span class=string>sass</span><span class=punct>','</span><span class=string>css</span><span class=punct>'),'</span><span class=string>w</span><span class=punct>')</span> <span class=keyword>do</span> <span class=punct>|</span><span class=ident>d</span><span class=punct>|</span><br />        <span class=ident>d</span> <span class=punct>&lt;&lt;</span> <span class=constant>Sass</span><span class=punct>::</span><span class=constant>Engine</span><span class=punct>.</span><span class=ident>new</span><span class=punct>(</span><span class=ident>fi</span><span class=punct>.</span><span class=ident>read</span><span class=punct>).</span><span class=ident>to_css</span><br />      <span class=keyword>end</span><br />    <span class=keyword>end</span><br />  <span class=keyword>end</span><br /><span class=keyword>end</span><br /></pre>
+  Here is a rakefile I cooked up for generating a website form static haml and sass files.
+
+%pre
+  %code.html.langauge-ruby
+    :preserve
+      require 'haml/engine'
+      require 'sass/engine'
+
+      task :default => [:web]
+      task :web => [:haml,:sass]
+
+      desc 'Compile haml templates to html'
+      task :haml do
+        dirs =  Dir['**/*.haml']
+        dirs.each do |f|
+          File.open(f, 'r') do |fi|
+            File.open(f.gsub('haml','html'),'w') do |d|
+              d << Haml::Engine.new(fi.read).to_html
+            end
+          end
+        end
+      end
+
+      desc 'Compile sass templates to css'
+      task :sass do
+        dirs =  Dir['**/*.sass']
+        dirs.each do |f|
+          File.open(f, 'r') do |fi|
+            File.open(f.gsub('sass','css'),'w') do |d|
+              d << Sass::Engine.new(fi.read).to_css
+            end
+          end
+        end
+      end

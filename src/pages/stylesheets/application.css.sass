@@ -16,13 +16,13 @@ img
 
 html
   height: 100%
-  padding-top: 1em
+  padding-top: 1rem
   font-size: 20px
   line-height: 136%
 
 body
   +light-colors
-  padding: 0 0.5em
+  padding: 0 0.5rem
 
   h1,h2,h3,h4,h5,h6
     font-size: 110%
@@ -31,24 +31,25 @@ body
       font-family: sans-serif
 
   footer
-    height: 15em
+    height: 15rem
     display: flex
     align-items: center
     justify-content: space-between
     flex-direction: column
-    margin-bottom: 10em
+    margin-bottom: 10rem
     ul
       list-style-type: none
 
   article
     *
-      max-width: 30em
+      max-width: 30rem
       margin: 0 auto
-
-    pre, code
+    p
+      margin: 1rem auto
+    pre, code, img, table
       max-width: 100%
       margin: 0 auto
-    pre
+    pre, table
       display: flex
       justify-content: center
 
@@ -56,7 +57,6 @@ body
   article
     text-align: justify
     box-sizing: border-box
-    padding-bottom: 10em
     overflow: auto
 
     p,li,td,a
@@ -69,10 +69,10 @@ body
         font-family: sans-serif
     .left
       img
-        :margin 0.75em 1em 1em 0
+        :margin 0.75rem 1rem 1rem 0
     table
       border-collapse: collapse
-      :margin 0.5em 0
+      :margin 0.5rem 0
       td, th
         :padding 5px
         :border 1px solid
@@ -82,29 +82,29 @@ body
         :text-align right
 
     ol, ul
-      :padding-left 2em
+      :padding-left 2rem
 
     code, pre
       white-space: pre
-      :margin 0.5em 0
+      :margin 0.5rem 0
       :overflow auto
-      :font-size 1em
+      :font-size 1rem
       :font-family "Fira Mono", "DejaVu Sans Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Lucida Console", monospace
 
     dl
-      :margin 0.5em 0
+      :margin 0.5rem auto
       dt
         :font-weight bold
         :font-style italic
       dd
-        :margin-left 1em
-        :margin-bottom 0.5em
+        :margin-left 1rem
+        :margin-bottom 0.5rem
 
     .entry + .entry
-      :padding-top 5em
+      :padding-top 5rem
 
     .right-image
-      :margin 0.75em 0 1em 1em
+      :margin 0.75rem 0 1rem 1rem
       .inner-image
         :text-align center
         .attribution
@@ -114,13 +114,7 @@ body
     .pub-date
       :font-weight bold
     .entry-line-item
-      :padding 0.5em
-    .next_article
-      margin: 2em 0
-      font-size: 150%
-    .previous_article
-      margin: 2em 0
-      font-size: 150%
+      :padding 0.5rem
     .published
       font-size: 50%
     blockquote
@@ -128,8 +122,8 @@ body
 
       :font-weight bold
 
-      :margin 0.5em 0 0.5em 1em
-      :padding 1em
+      :padding 1rem
+      :margin 1rem auto
 
       .attribution
         :float right
