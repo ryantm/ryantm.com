@@ -1,0 +1,32 @@
+%p
+  
+
+%pre.language-nix
+  %code.html.language-nix
+    :preserve
+      with import &lt;nixpkgs&gt; {};
+
+      stdenv.mkDerivation rec {
+        name = "pololu_nixops";
+        buildInputs = [
+          nixops
+        ];
+
+        revision = "d9dabb0e66c651cf5ad2dd8b15f5811afea49a0e"; # 17.09 on 2017-09-25
+
+        shellHook = ''
+          export NIX_PATH="nixpkgs=https://github.com/NixOs/nixpkgs-channels/archive/${revision}.tar.gz:."
+          export NIXOPS_STATE="./state.nixops"
+
+          function our_create () {
+            if [ `nixops list | grep -c $1` -eq 0 ]
+            then
+             (set -x; nixops create --deployment $1 "&lt;$1.nix&gt;")
+            fi
+          }
+
+          our_create radius1
+          our_create mattermost1
+        '';
+
+      }

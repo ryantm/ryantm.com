@@ -2,7 +2,7 @@
   By following this post you will have a website that you can visit in your web browser just like this one, for nearly free(less than 5 cents a year) in 20 minutes. In addition to being easy to set up, your website will be on top of a highly scalable and reliable architecture which will handle traffic spikes with ease.
 
 %p
-  ==The company we will use to host this site is called #{link_to "NearlyFreeSpeech.NET", "http://www.nearlyfreespeech.net"}. 
+  ==The company we will use to host this site is called #{link_to "NearlyFreeSpeech.NET", "http://www.nearlyfreespeech.net"}.
 
 %h2 Signing up
 %ol
@@ -33,7 +33,8 @@
     %div
       Enter the following text:
     %pre
-      :ep
+      %code.html.language-html
+        :ep
           <html>
             <head>
               <title>My First Page</title>
@@ -54,9 +55,10 @@
 %h2 Uploading your first web page ( on Linux )
 %ol
   %li Open a terminal
-  %li
-    %pre
-      rcp index.html YourUserName_YourWebsiteShortName@ssh.phx.nearlyfreespeech.net:/home/public
+  %li type
+%pre
+  %code.html.language-html
+    rcp index.html YourUserName_YourWebsiteShortName@ssh.phx.nearlyfreespeech.net:/home/public
 
 %h2 Visiting your site
 %ol
