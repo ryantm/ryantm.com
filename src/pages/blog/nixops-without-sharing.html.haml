@@ -25,6 +25,12 @@
   <code>nixops deploy</code>, which works.
 
 %p
+
+  Note, this will only work if all the machines were provisioned
+  outside of NixOps and therefore do not rely on hosting APIs (like
+  EC2) to manage the machine lifecycle.
+
+%p
   Here's how you do it: make a <code>shell.nix</code> file:
 
 %pre.language-nix
