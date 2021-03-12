@@ -1,4 +1,9 @@
 -
+  path: home-manager-without-installing
+  title: "Using home-manager without installing it"
+  author: ryan@ryantm.com (Ryan Mulligan)
+  pubDate: 2020-06-27
+-
   path: nixops-without-sharing
   title: "Nixops without sharing"
   author: ryan@ryantm.com (Ryan Mulligan)
@@ -418,43 +423,3 @@
   title: Haml and Sass Rakefile
   author: ryan@ryantm.com (Ryan Mulligan)
   pubDate: 2007-05-27
--
-  path: ron-paul-for-president-2008
-  title: Ron Paul for President 2008
-  author: ryan@ryantm.com (Ryan Mulligan)
-  pubDate: 2007-05-23
--
-  path: muding-website
-  title: MUDing Website
-  author: ryan@ryantm.com (Ryan Mulligan)
-  pubDate: 2007-05-17
--
-  path: rubinius
-  title: Rubinius
-  author: ryan@ryantm.com (Ryan Mulligan)
-  pubDate: 2007-05-05
--
-  path: in-the-future-there-will-be-no-files
-  title: In the Future, There Will Be No Files
-  author: ryan@ryantm.com (Ryan Mulligan)
-  pubDate: 2007-05-02
--
-  path: real-learning
-  title: Real Learning
-  author: ryan@ryantm.com (Ryan Mulligan)
-  pubDate: 2007-05-05
--
-  path: how-the-press-works
-  title: How the Press Works
-  author: ryan@ryantm.com (Ryan Mulligan)
-  pubDate: 2007-04-26
--
-  path: campus-assassins-in-usa-today
-  title: Campus Assassins in USA Today
-  author: ryan@ryantm.com (Ryan Mulligan)
-  pubDate: 2007-04-25
--
-  path: passing-infinite-functions
-  title: Passing Infinite Functions
-  author: ryan@ryantm.com (Ryan Mulligan)
-  pubDate: 2007-04-24
