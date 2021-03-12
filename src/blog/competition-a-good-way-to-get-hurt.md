@@ -1,3 +1,4 @@
+# competition a good way to get hurt {#competition-a-good-way-to-get-hurt}
 %p
   Looking back on the physical injuries I have had in my life, I see
   a recurring pattern. Almost every time I was injured, it was because

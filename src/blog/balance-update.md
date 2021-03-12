@@ -1,3 +1,4 @@
+# balance update {#balance-update}
 %p
   I added a couple of balancing habits to my day. When I put on my
   clothes in the morning, I try to do very carefully and smoothly. I try

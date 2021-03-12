@@ -1,3 +1,4 @@
+# official irc for muds {#official-irc-for-muds}
 %p
   The MUD IRC room is a great place to network. Many informed MUDers gather there to discuss MUD design, play, and implementation. The official IRC chat for MUDs is
 

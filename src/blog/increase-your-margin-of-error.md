@@ -1,3 +1,4 @@
+# increase your margin of error {#increase-your-margin-of-error}
 %p
   Your body is an adaptive system. No two bodies are the same because
   they have all adapted to different stresses placed on them. Cyclists

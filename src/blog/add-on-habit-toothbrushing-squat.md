@@ -1,3 +1,4 @@
+# add on habit toothbrushing squat {#add-on-habit-toothbrushing-squat}
 %p You might have noticed that it is hard for people to form positive habits. There is a gap between how people wished they behaved and how the do. There are plenty of people who have advice for what you should be doing with your time, but few explain how you can actually transform your habits to implement their prescriptions.
 
 %p A year ago, I wanted to do a better job of caring for my body. My main driving goal was to eliminate pain that I felt every day: my lower back hurt, sometimes I would have sudden rib pains that made it difficult to breathe for five seconds, my left hip and ankle are painful on occasion. One major motivator was #{link_to "Kelly Starrett's mobility workout of the day", "http://www.mobilitywod.com/"} video blog series. Watching these videos made me realize that, with hard work, I could figure out what is wrong with my body and fix it.

@@ -1,3 +1,4 @@
+# why slouching is bad {#why-slouching-is-bad}
 %p
   When I was little I got some cues from adults that slouching is bad
   and that I should try to maintain good posture. Until recently, I

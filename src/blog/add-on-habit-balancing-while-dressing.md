@@ -1,3 +1,4 @@
+# add on habit balancing while dressing {#add-on-habit-balancing-while-dressing}
 %p
   This is an easy add-on habit that serves as a diagnostic tool and an
   improvement exercise. When you are putting your shorts, pants, or

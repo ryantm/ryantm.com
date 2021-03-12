@@ -1,3 +1,4 @@
+# more evidence that programmers arent smarter than other people {#more-evidence-that-programmers-arent-smarter-than-other-people}
 %p
   So Google App Engine(GAE) came out and it has generated quite a buzz in the blagosphere especially surrounding the idea of <a href="http://www.tbray.org/ongoing/When/200x/2008/04/09/Google-Users-API">sharecropping</a>. But that isn't want I want to talk about. I want to talk about the growing amount of evidence that strikes down the idea that programmers are smarter than the average person.
 

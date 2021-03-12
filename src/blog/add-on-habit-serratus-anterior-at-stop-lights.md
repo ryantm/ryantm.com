@@ -1,3 +1,4 @@
+# add on habit serratus anterior at stop lights {#add-on-habit-serratus-anterior-at-stop-lights}
 %p An #{link_to "add-on habit", "blog/add-on-habit-toothbrushing-squat/"} is a habit you attach to something positive you are already doing. One positive, but somewhat time consuming, activity is driving my car from place to place. When stopped at stoplights, I work on my serratus anetior muscles. This has been very helpful in decreasing my sudden rib pains. Actually, I haven't had any sudden rib pain now in a few months. Maybe it's gone.
 
 %p Please only try this while you have your car completely stopped at a traffic light. Do not do this while your car is moving.

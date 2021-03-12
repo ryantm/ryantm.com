@@ -1,3 +1,4 @@
+# fix yourself by searching {#fix-yourself-by-searching}
 %p
   When something is not right about our bodies, we should take matters
   into our own hands. I am a strong believer in self help being the

@@ -1,3 +1,4 @@
+# why i stopped reading the newspaper {#why-i-stopped-reading-the-newspaper}
 %p
   It's been about 4 years since I stopped watching TV regularly, and about half a year since I stopped reading the Newspaper. My reasons for stopping are similar to my reasons for not drinking alcohol. I believe that you need a reason to exhibit an action and you don't need a reason to not exhibit an action. When someone asks me, "Why don't you drink." I say, "I need a reason to drink, not a reason to stay sober." I try to extend this thought process to many of my other habits.
 %p

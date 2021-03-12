@@ -1,3 +1,4 @@
+# haml why you should use it {#haml-why-you-should-use-it}
 %p
   <a href="http://nex-3.com/posts/76-haml-2-0">HAML 2.0</a> is out. I've been using HAML since back when I made my <a href="http://www.sassins.com">Assassins Game Hosting Service</a> in 2007. If you are still using ERB or some other templating language for your web applications here is why you should given HAML a try.
 

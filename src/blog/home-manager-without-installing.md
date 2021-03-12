@@ -1,3 +1,4 @@
+# home manager without installing {#home-manager-without-installing}
 %p
 
   #{link_to "home-manager", "https://github.com/rycee/home-manager"} is a great way to manage your user environment in a declarative reproducible way. Let's go the extra mile and reproducibly deploy our home configuration. In this post, I'll show you how to reproducibly deploy a home-manger configuration without installing home manager.

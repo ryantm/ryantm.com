@@ -1,3 +1,4 @@
+# nixops without sharing {#nixops-without-sharing}
 %p
 
   The default setup for nixops seems to be tuned for a setup involving

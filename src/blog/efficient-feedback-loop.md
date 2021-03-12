@@ -1,3 +1,4 @@
+# efficient feedback loop {#efficient-feedback-loop}
 -@ignore = true
 -index ||= false
 -@title = 'Efficient Feedback Loop'

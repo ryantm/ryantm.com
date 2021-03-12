@@ -1,3 +1,4 @@
+# blog redux {#blog-redux}
 %p
   I decided to start two don't break the chain habits today, 1 Feb 2008.
 

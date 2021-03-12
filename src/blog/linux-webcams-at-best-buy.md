@@ -1,3 +1,4 @@
+# linux webcams at best buy {#linux-webcams-at-best-buy}
 %p
   Want to buy a web-cam sold at Best Buy that works on Linux by default? I've already done the leg work for you. I bought most of the web-cams that Best Buy sells and tested them on my Ubuntu 8.04 (Hardy Heron) installation.
 

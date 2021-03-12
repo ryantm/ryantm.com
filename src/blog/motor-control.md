@@ -1,3 +1,4 @@
+# motor control {#motor-control}
 %p
   When you learn how walk, ride a bicycle, or any physical activity, you
   are learning how to control your muscles in a specific way. This is

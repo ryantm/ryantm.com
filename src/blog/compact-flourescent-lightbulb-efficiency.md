@@ -1,3 +1,4 @@
+# compact flourescent lightbulb efficiency {#compact-flourescent-lightbulb-efficiency}
 -@ignore = true
 -index ||= false
 -view  ||= :normal

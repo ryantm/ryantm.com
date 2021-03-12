@@ -1,3 +1,4 @@
+# passing infinite functions {#passing-infinite-functions}
 # Passing infinite functions {#passing-infinite-functions}
 
 2007-04-24

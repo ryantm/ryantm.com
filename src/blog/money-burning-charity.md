@@ -1,3 +1,4 @@
+# money burning charity {#money-burning-charity}
 %p
   Charities usually have a mission. The mission says who to help and how. It helps to be specific. Charities that focus on cleft lips tend to do better than ones focusing on heart disease. The charity I thought of is quite specific with its mission. The mission is to <b>destroy all of the money donated to it</b>.
 

@@ -1,3 +1,4 @@
+# posture power butt squeezed {#posture-power-butt-squeezed}
 %p
   The next critical posture point is the hips. First, do not forget to
   #{link_to "keep your feet forward", "blog/posture-power-feet-forward/"}

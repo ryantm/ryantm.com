@@ -1,3 +1,4 @@
+# non violent iraq {#non-violent-iraq}
 -@ignore = true
 %p
   I have come up with a solution for how to get America out of Iraq quickly. The solution is non-violent resistance. If the Iraqis decide to stop providing services and goods from Americans, and stage non-violent sit-ins at Baghdad the US army will have no choice to but to leave. The Iraqis must become stronger, they must decide that it is not worth working and living, if they are doing so under an oppressor.

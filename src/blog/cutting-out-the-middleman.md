@@ -1,3 +1,4 @@
+# cutting out the middleman {#cutting-out-the-middleman}
 -@ignore = true
 -index ||= false
 -view  ||= :normal

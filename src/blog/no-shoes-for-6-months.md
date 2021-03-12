@@ -1,3 +1,4 @@
+# no shoes for 6 months {#no-shoes-for-6-months}
 =image_tag "five-fingers.jpg"
 %p
   Last August, my friend Alan sent me <s><a href="http://anthropik.com/2007/06/learning-to-walk/">an article</a></s> about going barefoot. It talks about how hard-soled shoes make you walk in a way that forces you to put your heel on the ground before the ball of your foot (cow-stepping). If you take of your shoes and walk naturally you will realize that you stop walking this way. You start walking in a way called fox-stepping, where you put the ball of your foot down firs then slowly roll down your foot to your heel then apply the weigh of your body. This method of walking puts less stress on your joints as you walk.

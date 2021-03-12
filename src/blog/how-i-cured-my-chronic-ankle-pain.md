@@ -1,3 +1,4 @@
+# how i cured my chronic ankle pain {#how-i-cured-my-chronic-ankle-pain}
 %p
   Actually, it was not me. Andrea gets all the credit for this one!
 

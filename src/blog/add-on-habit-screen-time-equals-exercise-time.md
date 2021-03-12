@@ -1,3 +1,4 @@
+# add on habit screen time equals exercise time {#add-on-habit-screen-time-equals-exercise-time}
 %p
   Screen time when you are consuming media might not necessarily be a
   positive habit to add on to, but many of us find ourselves in front

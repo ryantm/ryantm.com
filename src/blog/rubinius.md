@@ -1,3 +1,4 @@
+# rubinius {#rubinius}
 # Rubinius {#rubinius}
 
 Today on Freenode #ruby-lang, I was talking to "Defiler" about [Rubinius](https://rubini.us). It sounded great. I'm going to look into working on this open source project over the summer, because it seems worth it, and I could end up learning a whole heck of a lot.

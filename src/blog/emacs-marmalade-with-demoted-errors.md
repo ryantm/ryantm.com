@@ -1,3 +1,4 @@
+# emacs marmalade with demoted errors {#emacs-marmalade-with-demoted-errors}
 %p www.marmalade-repo.org was down today, which caused my emacs to crash on start up. Here is a quick way to get around the crash. Instead of:
 
 %pre

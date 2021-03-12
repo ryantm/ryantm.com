@@ -1,3 +1,4 @@
+# posture checkpoints {#posture-checkpoints}
 %p
   Throughout the day I have developed little cues that cause me to
   assess and fix my posture. By developing these triggers, I am able to

@@ -1,3 +1,4 @@
+# how to unlock your iphone faster {#how-to-unlock-your-iphone-faster}
 %p
   =image_tag "iPhone.png"
 

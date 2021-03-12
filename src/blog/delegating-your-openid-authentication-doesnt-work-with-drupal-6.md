@@ -1,3 +1,4 @@
+# delegating your openid authentication doesnt work with drupal 6 {#delegating-your-openid-authentication-doesnt-work-with-drupal-6}
 %p
   When I read that <a href="http://drupal.org/drupal-6.0" title="Drupal 6">Drupal 6</a> supported OpenID, I was happy about it. I use OpenID for logins whenever I can, but I have it set up in a sort of novel way. My novel way is to have my open id be www.ryantm.com and then have that website <strong>delegate the authentication</strong> to another company. In my case, I picked this <a href="http://www.myopenid.com">good OpenID providor</a>. I figured out how to do this by watching <a href="http://video.google.com/videoplay?docid=2288395847791059857">Simon Willison's google video talk</a>. All you do is add these few lines to the head element of your OpenID url, but replace 'ryantm' with your username:
 

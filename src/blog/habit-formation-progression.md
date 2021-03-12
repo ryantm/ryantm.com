@@ -1,3 +1,4 @@
+# habit formation progression {#habit-formation-progression}
 %p
   Here are the different stages I think people go through when they are
   forming habits. Depending affinity for the habit people might quickly

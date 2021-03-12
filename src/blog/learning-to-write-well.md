@@ -1,3 +1,4 @@
+# learning to write well {#learning-to-write-well}
 %p
   The purpose of starting this blog again is to learn to write well. So far I have been trying to learn to write consistently first. The only way to learn to write well is to first develop a steady stream of writing. I have been cranking out a stream of marginal paragraphs for the last ten days, but I have not been applying an editorial process to my words. All I have done is briefly review each post before posting it. Since I want to get better at writing, I need to apply a feedback cycle to my work.
 

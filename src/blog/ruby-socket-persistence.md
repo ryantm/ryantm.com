@@ -1,3 +1,4 @@
+# ruby socket persistence {#ruby-socket-persistence}
 %p
   It's surprisingly simple to persist your socket connections while restarting a Ruby program. The key lies in understand how Ruby handles file descriptors. A file descriptor is a number that represents an open file that is buffered in the OS Kernel. Now I've only tried this technique on Linux so I don't know if it works on Windows, so chime in on the comments if it does or does not work. Let's start by exploring file descriptors a little bit so we can improve our Linux knowledge. If you want immediate gratification you can skip down to the bottom-most snippet.
 

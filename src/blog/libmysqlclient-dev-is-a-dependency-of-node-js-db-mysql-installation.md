@@ -1,3 +1,4 @@
+# libmysqlclient dev is a dependency of node js db mysql installation {#libmysqlclient-dev-is-a-dependency-of-node-js-db-mysql-installation}
 %p I was trying to install db-mysql and I ran into this error:
 
 %pre

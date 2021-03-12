@@ -1,3 +1,4 @@
+# vote ron paul today {#vote-ron-paul-today}
 .right
   =image_tag "ron_paul.jpeg"
 

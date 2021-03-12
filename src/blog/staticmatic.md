@@ -1,3 +1,4 @@
+# staticmatic {#staticmatic}
 %p
   Going along the lines of my last post there is a new rubygem that is focusing on building a framework for static webpages using haml and sass as its backbone. It's called <a href="https://github.com/staticmatic/staticmatic">StaticMatic</a> and it's a gem so...
 %pre

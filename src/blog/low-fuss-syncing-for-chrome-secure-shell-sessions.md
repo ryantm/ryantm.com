@@ -1,3 +1,4 @@
+# low fuss syncing for chrome secure shell sessions {#low-fuss-syncing-for-chrome-secure-shell-sessions}
 %p Chrome Secure Shell is a relatively-new SSH and terminal emulator as an App for Chrome. I am investigating whether I can use it as an alternative to PuTTY. As I explore this option, I am going to be trying to address my main gripes with PuTTY:
 
 %ul

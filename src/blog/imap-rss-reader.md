@@ -1,3 +1,4 @@
+# imap rss reader {#imap-rss-reader}
 %p Google Reader was going away; I needed a replacement. I tried lots of other webapps but none of them seemed to have the feature where you have to explicitly mark something as read. Also, wouldn't it be nice to take control of my feed reading data, securing it from prying eyes? My solution is to use a server to fetch RSS feeds and turn them into email. It turns out that IMAP is already a great protocol for handling a steady stream of messages. I have been using this system for a week and it has worked well, syncing across multiple devices and operating systems.
 
 %p I would like to give you a high-level look at how I did it. This is not meant to be a step by step guide. I might make one of those later but that requires a lot more work. If you have trouble, please let me know, and I will try to improve this guide.

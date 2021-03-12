@@ -1,3 +1,4 @@
+# cultivating your time {#cultivating-your-time}
 %p
   I used to spend a lot of my time playing video games. I played for
   many hours on the weekends and on some week nights after work. It felt

@@ -1,3 +1,4 @@
+# why google gears and yahoo browser plus dont change the game yet {#why-google-gears-and-yahoo-browser-plus-dont-change-the-game-yet}
 %p
   Hank Williams over at the Why Does Everything Suck blog is saying <a href="http://whydoeseverythingsuck.com/2008/05/yahoos-new-browserplus-game-changer.html">Yahoo Browser Plus is a Game Changer</a>, but I don't think so. While I agree that Yahoo Browser Plus is more well put together than Google Gears, both in terms of downloading and installing modules, and that their model for designing new modules is more open-source and organic, they need to <strong>get their software on computers</strong>.
 

@@ -1,3 +1,4 @@
+# google finance definitions {#google-finance-definitions}
 %p
   ==Have you ever visited #{link_to "Google Finance", "http://finance.google.com/finance?q=goog"} and wondered what all of those abbreviated names at the top of it are? Well I am going to explain them to you.
 

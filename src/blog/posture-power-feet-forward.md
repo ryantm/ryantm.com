@@ -1,3 +1,4 @@
+# posture power feet forward {#posture-power-feet-forward}
 %p
   Stand up. Look down at your feet. How are your toes pointed? If they
   are pointed forward and equally spaced, congratulations, you have good

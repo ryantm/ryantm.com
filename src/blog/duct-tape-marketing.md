@@ -1,3 +1,4 @@
+# duct tape marketing {#duct-tape-marketing}
 %p
   Yesterday I started reading Duct Tape Marketing by John Jantsch. This book is seriously great! As the owner of a small business, I keep getting ideas in my mind about how to improve it's marketing while reading it.
 %p

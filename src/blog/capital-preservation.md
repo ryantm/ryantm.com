@@ -1,3 +1,4 @@
+# capital preservation {#capital-preservation}
 -@ignore = true
 %p
   One financial skill that I have been most interested in lately is <b>capital preservation</b>. Capital preservation means that once you decide to invest some money, you try to never spend that money on a non-investment related activity, or lose it on bad investment. Operating from this frame of mind does two things for you. One, it keeps you thinking about ways to invest your money, and two it forces you to save for the future.

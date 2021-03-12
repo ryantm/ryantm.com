@@ -1,3 +1,4 @@
+# index {#index}
 %h1=link_to "Articles", "blog/"
 
 -model('post').each do |post|

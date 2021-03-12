@@ -1,3 +1,4 @@
+# muscle bundles {#muscle-bundles}
 %p
   When I first started learning about muscles in school, I learned the
   major names for muscles: Quadriceps, Biceps, Hamstrings, Calves, Abs,

@@ -1,3 +1,4 @@
+# cancun {#cancun}
 -@ignore = true
 %p
   Cancun is a city on the northeast corner of the Yucatan peninsula in the state of Quitana-Roo in the country of Mexico. It is known primarily for its party scene but there is a lot to do besides that. I have visited Cancun four times in my life and each time I had a wonderful time.

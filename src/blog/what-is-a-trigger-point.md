@@ -1,3 +1,4 @@
+# what is a trigger point {#what-is-a-trigger-point}
 %p
   A Trigger Point is a spot in your muscle that has gotten irritated
   and forms a tight balled up part of the muscle. Trigger points are

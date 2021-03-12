@@ -1,3 +1,4 @@
+# profitable education {#profitable-education}
 %p
   I came up with an idea for a "for profit" education system when I was arguing with a friend about where a libertarian view of the world would take us in 100 years. I'm not sure if this idea is a great idea, but I think it's an idea that you really have to try out to see if it will work. No amount of speculation or thought experiments will tell you the results of this. Even if education "experts" were to swear back and forth to me that this is the dumbest idea ever I'd still want to try it when I have the excess capital to do so. So here it goes:
 

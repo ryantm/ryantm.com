@@ -1,3 +1,4 @@
+# how to survive angels landing {#how-to-survive-angels-landing}
 %p
   I recently hiked Angel’s Landing at Zion National Park with my girlfriend. We are both 26 and in fairly good shape. The hike to Scout Lookout is strenuous, uphill for 2 miles. The last 0.5 miles up to Angel’s Landing is technical and dangerous. The sign says 6 people have died since 2004. We brought about 3.5 liters of water and we ran out at the last mile going down. Here are my tips for making it more likely that you will survive:
 

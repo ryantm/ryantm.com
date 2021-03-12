@@ -1,3 +1,4 @@
+# add on habit toe touches while rinsing {#add-on-habit-toe-touches-while-rinsing}
 %p
   Here is the newest add on habit I picked up lately: toe touch
   stretches while rinsing my mouth with

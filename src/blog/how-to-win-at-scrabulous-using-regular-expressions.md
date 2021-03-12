@@ -1,3 +1,4 @@
+# how to win at scrabulous using regular expressions {#how-to-win-at-scrabulous-using-regular-expressions}
 .right
   <img src="http://www.ryantm.com/images/Scrabble_board_in_play.jpg" alt="Scrabble" width="186" align="left" height="140" />
 

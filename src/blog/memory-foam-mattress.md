@@ -1,3 +1,4 @@
+# memory foam mattress {#memory-foam-mattress}
 -@ignore = true
 -index ||= false
 -view  ||= :normal

@@ -1,3 +1,4 @@
+# lawrence lessig predicts government ruining the internet {#lawrence-lessig-predicts-government-ruining-the-internet}
 %blockquote
   %p
     If you remember, after 9/11 the government dropped the Patriot Act within about 20 days and it was passed. I mean, the Patriot Act is huge. I remember someone asking a Justice Department official, how did they write such a large statute so quickly, and of course the answer was that it’s been sitting in the drawers of the Justice Department for the last 20 years waiting for the event that would allow them to drop it.

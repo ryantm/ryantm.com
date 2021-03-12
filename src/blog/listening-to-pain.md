@@ -1,3 +1,4 @@
+# listening to pain {#listening-to-pain}
 %p
   In addition to recognizing your body should
   #{link_to "not be harboring pain", "blog/your-body-should-not-harbor-pain/"},

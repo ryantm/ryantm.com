@@ -1,3 +1,4 @@
+# programmer labor unions {#programmer-labor-unions}
 %p
   We will have programmer labor unions. Labor unions arise when a workforce is stable, there are few opportunities for advancement, and the owners of the businesses are achieving large returns on capital. When these three conditions occur programmers will unionize.
 

@@ -1,3 +1,4 @@
+# habit triggers {#habit-triggers}
 %p
   A trigger for a habit is an event that happens right before you do
   your add-on habit. If the trigger is already a memorable and strong

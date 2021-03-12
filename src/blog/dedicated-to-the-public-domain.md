@@ -1,3 +1,4 @@
+# dedicated to the public domain {#dedicated-to-the-public-domain}
 %p
   At the bottom of every page on this website, I have a little Public
   Domain icon. If you hover over it, it says:

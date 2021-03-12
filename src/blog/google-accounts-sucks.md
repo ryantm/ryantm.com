@@ -1,3 +1,4 @@
+# google accounts sucks {#google-accounts-sucks}
 %p
   Google Accounts is inadequate for my usage of Google's services. First, I have a google apps account for my email, I'd like this to be my primary account. Unfortunately there are certain Google applications that only work with a Google Account and Not a Google Apps for your Domain Account. These services include 4 that I know of: Google Reader, Google Adsense, Google Adwords, and Google Checkout. What is most disappointing to me is that Adsense and Adwords are supposed to be Google's flagship moneymaker products, the ones they should be caring most about. The only google application to be responsible about this is Google Analytics, it lets you add other email accounts to have access to the application, and because of this it works properly with my account setup.
 

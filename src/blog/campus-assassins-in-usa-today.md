@@ -1,3 +1,4 @@
+# campus assassins in usa today {#campus-assassins-in-usa-today}
 # Campus Assassins in USA Today {#campus-assassins-in-usa-today}
 
 2007-04-25

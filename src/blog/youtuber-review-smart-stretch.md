@@ -1,3 +1,4 @@
+# youtuber review smart stretch {#youtuber-review-smart-stretch}
 %p
   As part of a new series, I will review YouTuber channels that I find
   useful and interesting. First up is

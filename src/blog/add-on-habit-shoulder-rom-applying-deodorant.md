@@ -1,3 +1,4 @@
+# add on habit shoulder rom applying deodorant {#add-on-habit-shoulder-rom-applying-deodorant}
 %p
   The idea behind this #{link_to "add-on habit", "blog/add-on-habit-toothbrushing-squat/"}
   is that you improve your shoulder range of motion while you apply

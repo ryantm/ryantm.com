@@ -1,3 +1,4 @@
+# haml and sass rakefile {#haml-and-sass-rakefile}
 Here is a rakefile I cooked up for generating a website form static haml and sass files.
 
 ```ruby

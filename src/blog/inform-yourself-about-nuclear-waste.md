@@ -1,3 +1,4 @@
+# inform yourself about nuclear waste {#inform-yourself-about-nuclear-waste}
 %p
   The most common argument of Nuclear Power detractors is the production of large quantities of radioactive waste. I'm going to take a look at nuclear waste generation so that you can get a better feel for the issue.
 

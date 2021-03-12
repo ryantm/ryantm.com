@@ -1,3 +1,4 @@
+# observational humor case study 1 {#observational-humor-case-study-1}
 %p==My #{link_to "Toastmasters", "http://www.toastmasters.org"} Club, #{link_to "Powerhouse Pros", "http://www.powerhousepros.com"}, has a section of the meeting called Observational Humor.  It is a chance to tell jokes about your observations throughout the meeting. I will give you the setup of the jokes and my monologue. Keep in mind that these jokes are meant to be funny and custom-tailored to the audience.
 
 %h2 The set up

@@ -1,3 +1,4 @@
+# how to move your mud to bluehost for only 695 per month {#how-to-move-your-mud-to-bluehost-for-only-695-per-month}
 %p
   Recently someone posted on The MUD Connector about having problems with their host. I offered the suggestion of using a non-mud-host specific hosting provider to run a mud, like I do on Deimos MUD. (quarkmud.com 6666) Here is a tutorial for doing it yourself.
 %p

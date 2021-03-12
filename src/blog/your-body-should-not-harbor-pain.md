@@ -1,3 +1,4 @@
+# your body should not harbor pain {#your-body-should-not-harbor-pain}
 %p
   When you press firmly on your joints or muscles of your body, you
   should not feel pain. When you move through your normal, full range of

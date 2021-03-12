@@ -1,3 +1,4 @@
+# your own fast image gallery on rails {#your-own-fast-image-gallery-on-rails}
 %p
   If you've ever used Facebook's photo application you might have wondered how they make the images go so fast. Since I wanted to have fast viewing of our snapshot galleries over at Brawl Snapshots, I set out to figure out how to do it.
 

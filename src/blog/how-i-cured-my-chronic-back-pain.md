@@ -1,3 +1,4 @@
+# how i cured my chronic back pain {#how-i-cured-my-chronic-back-pain}
 %p
   Before I got into the habit of addressing my chronic body aches, I
   noticed that I was starting to get pain in my lower back. This was

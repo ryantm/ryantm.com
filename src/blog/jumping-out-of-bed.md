@@ -1,3 +1,4 @@
+# jumping out of bed {#jumping-out-of-bed}
 %p
   I read <a href="http://www.stevepavlina.com/blog/2006/04/how-to-get-up-right-away-when-your-alarm-goes-off/">"How to get up right away when your alarm goes off"</a> by Steve Pavlina on last Thursday Night. Ever since when my alarm goes off I've been jolting myself out of bed. I am working to build this habit. I did not follow his advice of practicing because I didn't feel that I needed it. I was correct.
 %p

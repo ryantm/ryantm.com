@@ -1,3 +1,4 @@
+# opportunity monitoring company {#opportunity-monitoring-company}
 -@ignore = true
 -index ||= false
 -view  ||= :normal
