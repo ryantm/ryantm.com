@@ -37,13 +37,17 @@
         "nixpkgs-manual": "nixpkgs-manual"
       },
       "locked": {
-        "narHash": "sha256-VhyKKMB8dNKe0awFTkFWDDWs0iyVsdW9i39WQ+/PS40=",
-        "path": "/home/ryantm/p/mmdoc",
-        "type": "path"
+        "lastModified": 1617421402,
+        "narHash": "sha256-HbyaKVAsrvSez/7OXz1+Wp5L4/kgNvi/jQ0uJR7rO0I=",
+        "owner": "ryantm",
+        "repo": "mmdoc",
+        "rev": "5551692a4c68df4f90e85771fed261d60984f9d1",
+        "type": "github"
       },
       "original": {
-        "path": "/home/ryantm/p/mmdoc",
-        "type": "path"
+        "owner": "ryantm",
+        "repo": "mmdoc",
+        "type": "github"
       }
     },
     "nixpkgs": {
