@@ -2,11 +2,11 @@
   "nodes": {
     "flake-utils": {
       "locked": {
-        "lastModified": 1609246779,
-        "narHash": "sha256-eq6ZXE/VWo3EMC65jmIT6H/rrUc9UWOWVujkzav025k=",
+        "lastModified": 1614513358,
+        "narHash": "sha256-LakhOx3S1dRjnh0b5Dg3mbZyH0ToC9I8Y2wKSkBaTzU=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "08c7ad4a0844adc4a7f9f5bb3beae482e789afa4",
+        "rev": "5466c5bbece17adaab2d82fae80b46e807611bf3",
         "type": "github"
       },
       "original": {
@@ -17,11 +17,11 @@
     },
     "flake-utils_2": {
       "locked": {
-        "lastModified": 1609246779,
-        "narHash": "sha256-eq6ZXE/VWo3EMC65jmIT6H/rrUc9UWOWVujkzav025k=",
+        "lastModified": 1614513358,
+        "narHash": "sha256-LakhOx3S1dRjnh0b5Dg3mbZyH0ToC9I8Y2wKSkBaTzU=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "08c7ad4a0844adc4a7f9f5bb3beae482e789afa4",
+        "rev": "5466c5bbece17adaab2d82fae80b46e807611bf3",
         "type": "github"
       },
       "original": {
@@ -35,10 +35,11 @@
         "flake-utils": "flake-utils_2",
         "nixpkgs": [
           "nixpkgs"
-        ]
+        ],
+        "nixpkgs-manual": "nixpkgs-manual"
       },
       "locked": {
-        "narHash": "sha256-48kJ4waWXRwxoCHKY9qLsi1Gei74k4ROFCQMu62KqbQ=",
+        "narHash": "sha256-l+ESq1z0Us6PlxNOwCGKTeIVBS0FLr7zewehumIF9Vg=",
         "path": "/home/ryantm/p/mmdoc",
         "type": "path"
       },
@@ -49,16 +50,32 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1609817778,
-        "narHash": "sha256-xbLVXYDS07qm/vgRa8nIA9RRu1o0/OoUttNotoT7stA=",
+        "lastModified": 1617416290,
+        "narHash": "sha256-YF8dIQiYUdwCeYdz67SH80qGt14equVN2xMoXNbWhF8=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "178ec8974ff70ef0acffa4cc8f47f3234898ff3d",
+        "rev": "0d7c02365bae3129606a3357cbe9084332ba66ad",
         "type": "github"
       },
       "original": {
         "id": "nixpkgs",
         "type": "indirect"
+      }
+    },
+    "nixpkgs-manual": {
+      "locked": {
+        "lastModified": 1613859673,
+        "narHash": "sha256-kwhKrlFUg3mhmXu0IOY1kUzUeZfZ01YaGAkY+U5Opwg=",
+        "owner": "ryantm",
+        "repo": "nixpkgs",
+        "rev": "94a656614a9833d5279cad11e4e018f08284ee9e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ryantm",
+        "ref": "minman",
+        "repo": "nixpkgs",
+        "type": "github"
       }
     },
     "root": {

@@ -1,3 +1,12 @@
+# GenericToString.java {#generic-tostring-java}
+
+GenericToString is a utility that Java should have inside the standard
+library. You can call it on objects by
+"GenericToString.genericToString(obj);" and it will return a string
+that contains all of the fields of the object, found by
+reflection. The output of it is modeled after Kernel#inspect in Ruby.
+
+```Java
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
@@ -43,3 +52,4 @@ class GenericToString {
         }
     }
 }
+```

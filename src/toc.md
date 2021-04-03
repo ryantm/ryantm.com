@@ -94,6 +94,10 @@
 * [Campus Assassins in USA Today](#campus-assassins-in-usa-today)
 * [Passing infinite functions](#passing-infinite-functions)
 
+* [GenericToString.java](#generic-tostring-java)
+* [Mao](#mao)
+* [Pool Strife](#pool-strife)
+
 Questions or feedback? Email [ryan@ryantm.com](mailto:ryan@ryantm.com)
 
 Built with [mmdoc](https://github.com/ryantm/mmdoc).
