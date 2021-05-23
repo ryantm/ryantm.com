@@ -1,0 +1,258 @@
+:root.light-theme  {
+  --background: white;
+  --foreground: black;
+  --light-gray: lightgray;
+  --gray: gray;
+  --orange: #FF9636;
+  --yellow: #FFCD58;
+  --green: #DAD870;
+  --red: #FF5C4D;
+  --link: black;
+}
+
+:root.dark-theme {
+  --background: black;
+  --foreground: white;
+  --light-gray: gray;
+  --gray: lightgray;
+  --orange: #FF9636;
+  --yellow: #FFCD58;
+  --green: #DAD870;
+  --red: #FF5C4D;
+  --link: white;
+}
+
+:root.sidebar-hidden {
+  --sidebar-width: 0px;
+}
+
+:root {
+  --scrollbar-width: calc(100vw - 100%);
+  --sidebar-width: 300px;
+  --topbar-height: 50px;
+  color: var(--foreground);
+  background-color: var(--background);
+}
+
+body {
+  overflow-y: hidden;
+}
+
+a {
+  text-decoration-color: var(--light-gray);
+  color: var(--foreground);
+}
+
+input {
+  color: var(--foreground);
+  background-color: var(--background);
+}
+
+body {
+  line-height: 1.45;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+nav.sidebar {
+  height: calc(100vh - var(--topbar-height));
+  position: fixed;
+  overflow: auto;
+  padding: 5px;
+  padding-right: 20px;
+  background-color: var(--background);
+  max-width: 100w;
+  border-right: 1px solid var(--light-gray);
+}
+
+.sidebar-hidden nav.sidebar {
+  display: none;
+}
+
+nav ul ul {
+  padding-left: 15px;
+  list-style-type: none;
+}
+
+nav ul {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.nav-chapter-previous:hover, .nav-chapter-next:hover {
+  color: var(--gray);
+}
+
+.nav-chapter-previous {
+  float: left;
+}
+
+.nav-chapter-next {
+  float: right;
+  right: 0;
+}
+
+.nav-top-container {
+  display: block;
+  position: sticky;
+  top: 0;
+  height: var(--topbar-height);
+  background-color: var(--background);
+}
+
+.nav-top {
+  display: grid;
+  grid-template-columns:
+      var(--topbar-height)
+      var(--topbar-height)
+      var(--topbar-height)
+      var(--topbar-height)
+      var(--topbar-height);
+  height: var(--topbar-height);
+  line-height: var(--topbar-height);
+  overflow: hidden;
+  grid-column-gap: 10px;
+  border-bottom: 1px solid var(--light-gray);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80ch;
+}
+
+.nav-top button, .nav-top a {
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--light-gray);
+    margin: 0;
+    font-family: monospace;
+    font-size: 50px;
+    border: none;
+    background-color: var(--background);
+}
+
+.nav-top button.emoji, .nav-top a.emoji {
+    font-size: 30px;
+}
+
+.nav-top button:hover, .nav-top a:hover {
+  color: var(--gray);
+}
+
+button.sidebar-toggle, button.search-toggle, button.theme-toggle {
+  cursor: pointer;
+}
+
+.nav-search {
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80ch;
+}
+
+.search-visible nav.nav-search {
+  display: block !important;
+}
+
+#search {
+  width: 100%;
+  font-size: 20px;
+}
+
+#search-results {
+  overflow-y: auto;
+  max-height: calc(60vh - var(--topbar-height));
+}
+
+#search-results ol {
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+section {
+  height: calc(100vh - var(--topbar-height));
+  overflow: auto;
+  /* scrollbar-gutter: stable; */
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80ch;
+  padding: 0em 1em 20em 1em;
+  text-align: justify;
+}
+
+main .admonition {
+  border-radius: 6px;
+  padding: 0.5em 1em 0.5em 1em;
+  margin-bottom: 1em;
+}
+
+main .attention, main .caution, main .warning {
+  background-color: var(--orange);
+}
+
+main .danger, main .error {
+  background-color: var(--red);
+}
+
+main .hint, main .tip {
+  background-color: var(--green);
+}
+
+main .important, main .note {
+  background-color: var(--yellow);
+}
+
+main table, main th, main td {
+  border: 2px solid var(--gray);
+  border-collapse: collapse;
+}
+
+main th, main td {
+  padding: 0.75em;
+}
+
+main > h1 {
+  font-size: 2.5rem;
+}
+
+main > h1:first-child, nav.sidebar > h1:first-child {
+  margin-top: 10px;
+}
+
+main > h2, main > h3, main > h4, main > h5, main > h6 {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+main blockquote {
+  border-left: 5px solid var(--light-gray);
+  margin-left: 0px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+pre code.hljs {
+  display: block;
+  padding: 10px;
+}
+
+code.hljs {
+  display: inline;
+  padding: 0.25em;
+  border-radius: 5px;
+  border-color: var(--gray);
+  border-style: solid;
+  border-width: 2px;
+  scrollbar-width: thin;
+}
+
+code.language-ShellSession .hljs-meta,
+code.language-shellsession .hljs-meta,
+code.language-Shell .hljs-meta,
+code.language-shell .hljs-meta,
+code.language-Console .hljs-meta,
+code.language-console .hljs-meta {
+  user-select: none;
+}

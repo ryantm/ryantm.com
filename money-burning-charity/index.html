@@ -1,0 +1,370 @@
+<!doctype html>
+<html>
+  <head>
+    <base href='../'>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='icon' href='favicon.svg'>
+    <link href='minimal.css' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='a11y-light.css' media='(prefers-color-scheme: light)'>
+    <link rel='stylesheet' href='a11y-dark.css' media='(prefers-color-scheme: dark)'>
+    <script src='highlight.pack.js'></script>
+    <script>hljs.highlightAll()</script>
+    <script>
+      window.addEventListener('load', (event) => { 
+        let codeElems = Array.from(document.querySelectorAll('code')).filter(function (elem) {return !elem.parentElement.classList.contains('heade'); });
+        codeElems.forEach(function (e) { e.classList.add('hljs'); });
+      });
+    </script>
+    <script src='fuse.basic.min.js'></script>
+    <script src='search_index.js'></script>
+    <script src='search.js'></script>
+    <title>Money Burning Charity | ryantm.com</title>
+  </head>
+  <body>
+    <div class='nav-top-container'>
+    <nav class='nav-top'>
+      <button type='button' class='sidebar-toggle'>≡</button>    <button type='button' class='search-toggle emoji'>🔍&#xFE0E;</button>    <button type='button' class='theme-toggle emoji'>🌘&#xFE0E;</button>    <a class='chapter-previous' href='writing-review-1/' title='Writing Review #1'>&lt;</a>
+    <a class='chapter-next' href='learning-to-write-well/' title='Learning to Write Well'>&gt;</a>
+    </nav>
+    </div>
+    <nav class='nav-search' style='display:none;'>
+        <input type='search' id='search' placeholder='Search'>
+        <div id='search-results'></div>
+    </nav>
+    <nav class='sidebar'>
+<h1><a href="./#home">RyanTM.com</a></h1>
+<ul>
+<li>
+<p><a href="home-manager-without-installing/#home-manager-without-installing">Home Manager Without Installing</a></p>
+</li>
+<li>
+<p><a href="nixops-without-sharing/#nixops-without-sharing">Nixops Without Sharing</a></p>
+</li>
+<li>
+<p><a href="add-on-habit-screen-time-equals-exercise-time/#add-on-habit-screen-time-equals-exercise-time">add on habit screen time equals exercise time</a></p>
+</li>
+<li>
+<p><a href="motor-control/#motor-control">motor control</a></p>
+</li>
+<li>
+<p><a href="youtuber-review-mobility-wod/#youtuber-review-mobility-wod">youtuber review mobility wod</a></p>
+</li>
+<li>
+<p><a href="balance-update/#balance-update">balance update</a></p>
+</li>
+<li>
+<p><a href="competition-a-good-way-to-get-hurt/#competition-a-good-way-to-get-hurt">competition a good way to get hurt</a></p>
+</li>
+<li>
+<p><a href="posture-checkpoints/#posture-checkpoints">posture checkpoints</a></p>
+</li>
+<li>
+<p><a href="dedicated-to-the-public-domain/#dedicated-to-the-public-domain">dedicated to the public domain</a></p>
+</li>
+<li>
+<p><a href="fix-yourself-by-searching/#fix-yourself-by-searching">fix yourself by searching</a></p>
+</li>
+<li>
+<p><a href="add-on-habit-toe-touches-while-rinsing/#add-on-habit-toe-touches-while-rinsing">add on habit toe touches while rinsing</a></p>
+</li>
+<li>
+<p><a href="habit-formation-progression/#habit-formation-progression">habit formation progression</a></p>
+</li>
+<li>
+<p><a href="always-have-a-project/#always-have-a-project">always have a project</a></p>
+</li>
+<li>
+<p><a href="posture-power-butt-squeezed/#posture-power-butt-squeezed">posture power butt squeezed</a></p>
+</li>
+<li>
+<p><a href="youtuber-review-smart-stretch/#youtuber-review-smart-stretch">youtuber review smart stretch</a></p>
+</li>
+<li>
+<p><a href="how-i-cured-my-chronic-ankle-pain/#how-i-cured-my-chronic-ankle-pain">how i cured my chronic ankle pain</a></p>
+</li>
+<li>
+<p><a href="why-slouching-is-bad/#why-slouching-is-bad">why slouching is bad</a></p>
+</li>
+<li>
+<p><a href="cultivating-your-time/#cultivating-your-time">cultivating your time</a></p>
+</li>
+<li>
+<p><a href="what-is-a-trigger-point/#what-is-a-trigger-point">what is a trigger point</a></p>
+</li>
+<li>
+<p><a href="listening-to-pain/#listening-to-pain">listening to pain</a></p>
+</li>
+<li>
+<p><a href="muscle-bundles/#muscle-bundles">muscle bundles</a></p>
+</li>
+<li>
+<p><a href="habit-triggers/#habit-triggers">habit triggers</a></p>
+</li>
+<li>
+<p><a href="posture-power-feet-forward/#posture-power-feet-forward">posture power feet forward</a></p>
+</li>
+<li>
+<p><a href="add-on-habit-mobilization-at-meetings/#add-on-habit-mobilization-at-meetings">add on habit mobilization at meetings</a></p>
+</li>
+<li>
+<p><a href="how-i-cured-my-chronic-back-pain/#how-i-cured-my-chronic-back-pain">how i cured my chronic back pain</a></p>
+</li>
+<li>
+<p><a href="add-on-habit-balancing-while-dressing/#add-on-habit-balancing-while-dressing">add on habit balancing while dressing</a></p>
+</li>
+<li>
+<p><a href="add-on-habit-transverse-abdominis-while-flossing/#add-on-habit-transverse-abdominis-while-flossing">add on habit transverse abdominis while flossing</a></p>
+</li>
+<li>
+<p><a href="your-body-should-not-harbor-pain/#your-body-should-not-harbor-pain">your body should not harbor pain</a></p>
+</li>
+<li>
+<p><a href="add-on-habit-shoulder-rom-applying-deodorant/#add-on-habit-shoulder-rom-applying-deodorant">add on habit shoulder rom applying deodorant</a></p>
+</li>
+<li>
+<p><a href="increase-your-margin-of-error/#increase-your-margin-of-error">increase your margin of error</a></p>
+</li>
+<li>
+<p><a href="add-on-habit-serratus-anterior-at-stop-lights/#add-on-habit-serratus-anterior-at-stop-lights">add on habit serratus anterior at stop lights</a></p>
+</li>
+<li>
+<p><a href="add-on-habit-toothbrushing-squat/#add-on-habit-toothbrushing-squat">add on habit toothbrushing squat</a></p>
+</li>
+<li>
+<p><a href="imap-rss-reader/#imap-rss-reader">imap rss reader</a></p>
+</li>
+<li>
+<p><a href="voting-against-an-amendment/#voting-against-an-amendment">voting against an amendment</a></p>
+</li>
+<li>
+<p><a href="emacs-marmalade-with-demoted-errors/#emacs-marmalade-with-demoted-errors">emacs marmalade with demoted errors</a></p>
+</li>
+<li>
+<p><a href="observational-humor-case-study-1/#observational-humor-case-study-1">observational humor case study 1</a></p>
+</li>
+<li>
+<p><a href="low-fuss-syncing-for-chrome-secure-shell-sessions/#low-fuss-syncing-for-chrome-secure-shell-sessions">low fuss syncing for chrome secure shell sessions</a></p>
+</li>
+<li>
+<p><a href="pv-gs180-windows-7-drivers/#pv-gs180-windows-7-drivers">pv gs180 windows 7 drivers</a></p>
+</li>
+<li>
+<p><a href="libmysqlclient-dev-is-a-dependency-of-node-js-db-mysql-installation/#libmysqlclient-dev-is-a-dependency-of-node-js-db-mysql-installation">libmysqlclient dev is a dependency of node js db mysql installation</a></p>
+</li>
+<li>
+<p><a href="why-does-my-garlic-burn-when-i-saut%C3%A9-it/#why-does-my-garlic-burn-when-i-saut%C3%A9-it">why does my garlic burn when i sauté it</a></p>
+</li>
+<li>
+<p><a href="rainbow-smudge-artifact-on-pro8200/#rainbow-smudge-artifact-on-pro8200">rainbow smudge artifact on pro8200</a></p>
+</li>
+<li>
+<p><a href="how-to-survive-angels-landing/#how-to-survive-angels-landing">how to survive angels landing</a></p>
+</li>
+<li>
+<p><a href="how-to-make-your-own-free-website-in-twenty-minutes/#how-to-make-your-own-free-website-in-twenty-minutes">how to make your own free website in twenty minutes</a></p>
+</li>
+<li>
+<p><a href="writing-review-1/#writing-review-1">writing review 1</a></p>
+</li>
+<li>
+<p><a href="money-burning-charity/#money-burning-charity">money burning charity</a></p>
+</li>
+<li>
+<p><a href="learning-to-write-well/#learning-to-write-well">learning to write well</a></p>
+</li>
+<li>
+<p><a href="google-finance-definitions/#google-finance-definitions">google finance definitions</a></p>
+</li>
+<li>
+<p><a href="what-i-learned-playing-muds/#what-i-learned-playing-muds">what i learned playing muds</a></p>
+</li>
+<li>
+<p><a href="programmer-labor-unions/#programmer-labor-unions">programmer labor unions</a></p>
+</li>
+<li>
+<p><a href="non-violent-iraq/#non-violent-iraq">non violent iraq</a></p>
+</li>
+<li>
+<p><a href="cancun/#cancun">cancun</a></p>
+</li>
+<li>
+<p><a href="admitting-you-suck/#admitting-you-suck">admitting you suck</a></p>
+</li>
+<li>
+<p><a href="systematic-exploration/#systematic-exploration">systematic exploration</a></p>
+</li>
+<li>
+<p><a href="capital-preservation/#capital-preservation">capital preservation</a></p>
+</li>
+<li>
+<p><a href="opportunity-monitoring-company/#opportunity-monitoring-company">opportunity monitoring company</a></p>
+</li>
+<li>
+<p><a href="title-insurance-prices/#title-insurance-prices">title insurance prices</a></p>
+</li>
+<li>
+<p><a href="cutting-out-the-middleman/#cutting-out-the-middleman">cutting out the middleman</a></p>
+</li>
+<li>
+<p><a href="memory-foam-mattress/#memory-foam-mattress">memory foam mattress</a></p>
+</li>
+<li>
+<p><a href="compact-flourescent-lightbulb-efficiency/#compact-flourescent-lightbulb-efficiency">compact flourescent lightbulb efficiency</a></p>
+</li>
+<li>
+<p><a href="linux-webcams-at-best-buy/#linux-webcams-at-best-buy">linux webcams at best buy</a></p>
+</li>
+<li>
+<p><a href="ruby-socket-persistence/#ruby-socket-persistence">ruby socket persistence</a></p>
+</li>
+<li>
+<p><a href="lsof-lists-open-file-descriptors/#lsof-lists-open-file-descriptors">lsof lists open file descriptors</a></p>
+</li>
+<li>
+<p><a href="how-to-win-at-scrabulous-using-regular-expressions/#how-to-win-at-scrabulous-using-regular-expressions">how to win at scrabulous using regular expressions</a></p>
+</li>
+<li>
+<p><a href="why-google-gears-and-yahoo-browser-plus-dont-change-the-game-yet/#why-google-gears-and-yahoo-browser-plus-dont-change-the-game-yet">why google gears and yahoo browser plus dont change the game yet</a></p>
+</li>
+<li>
+<p><a href="delegating-your-openid-authentication-doesnt-work-with-drupal-6/#delegating-your-openid-authentication-doesnt-work-with-drupal-6">delegating your openid authentication doesnt work with drupal 6</a></p>
+</li>
+<li>
+<p><a href="haml-why-you-should-use-it/#haml-why-you-should-use-it">haml why you should use it</a></p>
+</li>
+<li>
+<p><a href="email-reminder-scheduler-replylatercom/#email-reminder-scheduler-replylatercom">email reminder scheduler replylater.com</a></p>
+</li>
+<li>
+<p><a href="more-evidence-that-programmers-arent-smarter-than-other-people/#more-evidence-that-programmers-arent-smarter-than-other-people">more evidence that programmers arent smarter than other people</a></p>
+</li>
+<li>
+<p><a href="google-accounts-sucks/#google-accounts-sucks">google accounts sucks</a></p>
+</li>
+<li>
+<p><a href="your-own-fast-image-gallery-on-rails/#your-own-fast-image-gallery-on-rails">your own fast image gallery on rails</a></p>
+</li>
+<li>
+<p><a href="why-i-stopped-reading-the-newspaper/#why-i-stopped-reading-the-newspaper">why i stopped reading the newspaper</a></p>
+</li>
+<li>
+<p><a href="primary-post-mortem/#primary-post-mortem">primary post mortem</a></p>
+</li>
+<li>
+<p><a href="vote-ron-paul-today/#vote-ron-paul-today">vote ron paul today</a></p>
+</li>
+<li>
+<p><a href="profitable-education/#profitable-education">profitable education</a></p>
+</li>
+<li>
+<p><a href="no-shoes-for-6-months/#no-shoes-for-6-months">no shoes for 6 months</a></p>
+</li>
+<li>
+<p><a href="inform-yourself-about-nuclear-waste/#inform-yourself-about-nuclear-waste">inform yourself about nuclear waste</a></p>
+</li>
+<li>
+<p><a href="blog-redux/#blog-redux">blog redux</a></p>
+</li>
+<li>
+<p><a href="lawrence-lessig-predicts-government-ruining-the-internet/#lawrence-lessig-predicts-government-ruining-the-internet">lawrence lessig predicts government ruining the internet</a></p>
+</li>
+<li>
+<p><a href="how-to-unlock-your-iphone-faster/#how-to-unlock-your-iphone-faster">how to unlock your iphone faster</a></p>
+</li>
+<li>
+<p><a href="jumping-out-of-bed/#jumping-out-of-bed">jumping out of bed</a></p>
+</li>
+<li>
+<p><a href="official-irc-for-muds/#official-irc-for-muds">official irc for muds</a></p>
+</li>
+<li>
+<p><a href="how-to-move-your-mud-to-bluehost-for-only-695-per-month/#how-to-move-your-mud-to-bluehost-for-only-695-per-month">how to move your mud to bluehost for only 695 per month</a></p>
+</li>
+<li>
+<p><a href="duct-tape-marketing/#duct-tape-marketing">duct tape marketing</a></p>
+</li>
+<li>
+<p><a href="staticmatic/#staticmatic">staticmatic</a></p>
+</li>
+<li>
+<p><a href="haml-and-sass-rakefile/#haml-and-sass-rakefile">haml and sass rakefile</a></p>
+</li>
+<li>
+<p><a href="ron-paul-for-president-2008/#ron-paul-for-president-2008">Ron Paul for President 2008</a></p>
+</li>
+<li>
+<p><a href="muding-website/#muding-website">MUDing Website</a></p>
+</li>
+<li>
+<p><a href="rubinius/#rubinius">Rubinius</a></p>
+</li>
+<li>
+<p><a href="in-the-future-there-will-be-no-files/#in-the-future-there-will-be-no-files">In the Future, There Will Be No Files</a></p>
+</li>
+<li>
+<p><a href="real-learning/#real-learning">Real Learning</a></p>
+</li>
+<li>
+<p><a href="how-the-press-works/#how-the-press-works">How the Press Works</a></p>
+</li>
+<li>
+<p><a href="campus-assassins-in-usa-today/#campus-assassins-in-usa-today">Campus Assassins in USA Today</a></p>
+</li>
+<li>
+<p><a href="passing-infinite-functions/#passing-infinite-functions">Passing infinite functions</a></p>
+</li>
+<li>
+<p><a href="generic-tostring-java/#generic-tostring-java">GenericToString.java</a></p>
+</li>
+<li>
+<p><a href="mao/#mao">Mao</a></p>
+</li>
+<li>
+<p><a href="strife/#pool-strife">Pool Strife</a></p>
+</li>
+</ul>
+<p>Questions or feedback? Email <a href="mailto:ryan@ryantm.com">ryan@ryantm.com</a></p>
+<p>Built with <a href="https://github.com/ryantm/mmdoc">mmdoc</a>.</p>
+<p>To the extent possible under law, Ryan Mulligan has waived all
+copyright and related or neighboring rights to www.ryantm.com.</p>
+    </nav>
+    <section>
+      <main>
+<h1><span id='money-burning-charity'>Money Burning Charity</span></h1>
+<p>2008-12-20</p>
+<p>Charities usually have a mission. The mission says who to help and
+how. It helps to be specific. Charities that focus on cleft lips tend
+to do better than ones focusing on heart disease. The charity I
+thought of is quite specific with its mission. The mission is to
+destroy all of the money donated to it.</p>
+<p>By destroying all the money donated, this charity will be bolstering
+the value of the currency donated. For example, when you donate one
+million USD to this charity, everyone else's US Dollars become more
+valuable. It is the opposite of inflation. Instead of goods and
+services costing more because there are more dollars around to buy
+them, they cost less because there are less dollars around to buy
+them.</p>
+<p>By reducing prices in general, this charity makes it easier for
+consumers to buy necessary items. Instead of each paycheck being able
+to buy less and less goods and services, it will be able to buy more
+and more.</p>
+<p>If popular enough, it may make a slight dent in the rampant inflation
+caused by the central banks of the world. In fact, to make it more
+effective, instead of destroying the money donated to it, it will
+first invest the money and only half the proceeds. This will create a
+machine that destroys every increasing amounts of money.</p>
+<p>Unfortunately, the burning would not negate the bureau-potism caused
+by the inflationary system: the system that favors those who are close
+friends with the government by buying their goods and services with
+inflationary dollars. It would also not help people pay off
+loans. Most of the money in existence in the world is because banks
+loaned it into existence, and when they charge interest on top of the
+created money, it becomes impossible for people to pay off all the
+debt in existence even by using all the credit in existence. This
+charity would be destroying credit, without quenching the debt that
+created it.</p>
+      </main>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,399 @@
+<!doctype html>
+<html>
+  <head>
+    <base href='../'>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='icon' href='favicon.svg'>
+    <link href='minimal.css' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='a11y-light.css' media='(prefers-color-scheme: light)'>
+    <link rel='stylesheet' href='a11y-dark.css' media='(prefers-color-scheme: dark)'>
+    <script src='highlight.pack.js'></script>
+    <script>hljs.highlightAll()</script>
+    <script>
+      window.addEventListener('load', (event) => { 
+        let codeElems = Array.from(document.querySelectorAll('code')).filter(function (elem) {return !elem.parentElement.classList.contains('heade'); });
+        codeElems.forEach(function (e) { e.classList.add('hljs'); });
+      });
+    </script>
+    <script src='fuse.basic.min.js'></script>
+    <script src='search_index.js'></script>
+    <script src='search.js'></script>
+    <title>What I Learned Playing MUDs | ryantm.com</title>
+  </head>
+  <body>
+    <div class='nav-top-container'>
+    <nav class='nav-top'>
+      <button type='button' class='sidebar-toggle'>≡</button>    <button type='button' class='search-toggle emoji'>🔍&#xFE0E;</button>    <button type='button' class='theme-toggle emoji'>🌘&#xFE0E;</button>    <a class='chapter-previous' href='google-finance-definitions/' title='Google Finance Definitions'>&lt;</a>
+    <a class='chapter-next' href='programmer-labor-unions/' title='Programmers Will Form Labor Unions'>&gt;</a>
+    </nav>
+    </div>
+    <nav class='nav-search' style='display:none;'>
+        <input type='search' id='search' placeholder='Search'>
+        <div id='search-results'></div>
+    </nav>
+    <nav class='sidebar'>
+<h1><a href="./#home">RyanTM.com</a></h1>
+<ul>
+<li>
+<p><a href="home-manager-without-installing/#home-manager-without-installing">Home Manager Without Installing</a></p>
+</li>
+<li>
+<p><a href="nixops-without-sharing/#nixops-without-sharing">Nixops Without Sharing</a></p>
+</li>
+<li>
+<p><a href="add-on-habit-screen-time-equals-exercise-time/#add-on-habit-screen-time-equals-exercise-time">add on habit screen time equals exercise time</a></p>
+</li>
+<li>
+<p><a href="motor-control/#motor-control">motor control</a></p>
+</li>
+<li>
+<p><a href="youtuber-review-mobility-wod/#youtuber-review-mobility-wod">youtuber review mobility wod</a></p>
+</li>
+<li>
+<p><a href="balance-update/#balance-update">balance update</a></p>
+</li>
+<li>
+<p><a href="competition-a-good-way-to-get-hurt/#competition-a-good-way-to-get-hurt">competition a good way to get hurt</a></p>
+</li>
+<li>
+<p><a href="posture-checkpoints/#posture-checkpoints">posture checkpoints</a></p>
+</li>
+<li>
+<p><a href="dedicated-to-the-public-domain/#dedicated-to-the-public-domain">dedicated to the public domain</a></p>
+</li>
+<li>
+<p><a href="fix-yourself-by-searching/#fix-yourself-by-searching">fix yourself by searching</a></p>
+</li>
+<li>
+<p><a href="add-on-habit-toe-touches-while-rinsing/#add-on-habit-toe-touches-while-rinsing">add on habit toe touches while rinsing</a></p>
+</li>
+<li>
+<p><a href="habit-formation-progression/#habit-formation-progression">habit formation progression</a></p>
+</li>
+<li>
+<p><a href="always-have-a-project/#always-have-a-project">always have a project</a></p>
+</li>
+<li>
+<p><a href="posture-power-butt-squeezed/#posture-power-butt-squeezed">posture power butt squeezed</a></p>
+</li>
+<li>
+<p><a href="youtuber-review-smart-stretch/#youtuber-review-smart-stretch">youtuber review smart stretch</a></p>
+</li>
+<li>
+<p><a href="how-i-cured-my-chronic-ankle-pain/#how-i-cured-my-chronic-ankle-pain">how i cured my chronic ankle pain</a></p>
+</li>
+<li>
+<p><a href="why-slouching-is-bad/#why-slouching-is-bad">why slouching is bad</a></p>
+</li>
+<li>
+<p><a href="cultivating-your-time/#cultivating-your-time">cultivating your time</a></p>
+</li>
+<li>
+<p><a href="what-is-a-trigger-point/#what-is-a-trigger-point">what is a trigger point</a></p>
+</li>
+<li>
+<p><a href="listening-to-pain/#listening-to-pain">listening to pain</a></p>
+</li>
+<li>
+<p><a href="muscle-bundles/#muscle-bundles">muscle bundles</a></p>
+</li>
+<li>
+<p><a href="habit-triggers/#habit-triggers">habit triggers</a></p>
+</li>
+<li>
+<p><a href="posture-power-feet-forward/#posture-power-feet-forward">posture power feet forward</a></p>
+</li>
+<li>
+<p><a href="add-on-habit-mobilization-at-meetings/#add-on-habit-mobilization-at-meetings">add on habit mobilization at meetings</a></p>
+</li>
+<li>
+<p><a href="how-i-cured-my-chronic-back-pain/#how-i-cured-my-chronic-back-pain">how i cured my chronic back pain</a></p>
+</li>
+<li>
+<p><a href="add-on-habit-balancing-while-dressing/#add-on-habit-balancing-while-dressing">add on habit balancing while dressing</a></p>
+</li>
+<li>
+<p><a href="add-on-habit-transverse-abdominis-while-flossing/#add-on-habit-transverse-abdominis-while-flossing">add on habit transverse abdominis while flossing</a></p>
+</li>
+<li>
+<p><a href="your-body-should-not-harbor-pain/#your-body-should-not-harbor-pain">your body should not harbor pain</a></p>
+</li>
+<li>
+<p><a href="add-on-habit-shoulder-rom-applying-deodorant/#add-on-habit-shoulder-rom-applying-deodorant">add on habit shoulder rom applying deodorant</a></p>
+</li>
+<li>
+<p><a href="increase-your-margin-of-error/#increase-your-margin-of-error">increase your margin of error</a></p>
+</li>
+<li>
+<p><a href="add-on-habit-serratus-anterior-at-stop-lights/#add-on-habit-serratus-anterior-at-stop-lights">add on habit serratus anterior at stop lights</a></p>
+</li>
+<li>
+<p><a href="add-on-habit-toothbrushing-squat/#add-on-habit-toothbrushing-squat">add on habit toothbrushing squat</a></p>
+</li>
+<li>
+<p><a href="imap-rss-reader/#imap-rss-reader">imap rss reader</a></p>
+</li>
+<li>
+<p><a href="voting-against-an-amendment/#voting-against-an-amendment">voting against an amendment</a></p>
+</li>
+<li>
+<p><a href="emacs-marmalade-with-demoted-errors/#emacs-marmalade-with-demoted-errors">emacs marmalade with demoted errors</a></p>
+</li>
+<li>
+<p><a href="observational-humor-case-study-1/#observational-humor-case-study-1">observational humor case study 1</a></p>
+</li>
+<li>
+<p><a href="low-fuss-syncing-for-chrome-secure-shell-sessions/#low-fuss-syncing-for-chrome-secure-shell-sessions">low fuss syncing for chrome secure shell sessions</a></p>
+</li>
+<li>
+<p><a href="pv-gs180-windows-7-drivers/#pv-gs180-windows-7-drivers">pv gs180 windows 7 drivers</a></p>
+</li>
+<li>
+<p><a href="libmysqlclient-dev-is-a-dependency-of-node-js-db-mysql-installation/#libmysqlclient-dev-is-a-dependency-of-node-js-db-mysql-installation">libmysqlclient dev is a dependency of node js db mysql installation</a></p>
+</li>
+<li>
+<p><a href="why-does-my-garlic-burn-when-i-saut%C3%A9-it/#why-does-my-garlic-burn-when-i-saut%C3%A9-it">why does my garlic burn when i sauté it</a></p>
+</li>
+<li>
+<p><a href="rainbow-smudge-artifact-on-pro8200/#rainbow-smudge-artifact-on-pro8200">rainbow smudge artifact on pro8200</a></p>
+</li>
+<li>
+<p><a href="how-to-survive-angels-landing/#how-to-survive-angels-landing">how to survive angels landing</a></p>
+</li>
+<li>
+<p><a href="how-to-make-your-own-free-website-in-twenty-minutes/#how-to-make-your-own-free-website-in-twenty-minutes">how to make your own free website in twenty minutes</a></p>
+</li>
+<li>
+<p><a href="writing-review-1/#writing-review-1">writing review 1</a></p>
+</li>
+<li>
+<p><a href="money-burning-charity/#money-burning-charity">money burning charity</a></p>
+</li>
+<li>
+<p><a href="learning-to-write-well/#learning-to-write-well">learning to write well</a></p>
+</li>
+<li>
+<p><a href="google-finance-definitions/#google-finance-definitions">google finance definitions</a></p>
+</li>
+<li>
+<p><a href="what-i-learned-playing-muds/#what-i-learned-playing-muds">what i learned playing muds</a></p>
+</li>
+<li>
+<p><a href="programmer-labor-unions/#programmer-labor-unions">programmer labor unions</a></p>
+</li>
+<li>
+<p><a href="non-violent-iraq/#non-violent-iraq">non violent iraq</a></p>
+</li>
+<li>
+<p><a href="cancun/#cancun">cancun</a></p>
+</li>
+<li>
+<p><a href="admitting-you-suck/#admitting-you-suck">admitting you suck</a></p>
+</li>
+<li>
+<p><a href="systematic-exploration/#systematic-exploration">systematic exploration</a></p>
+</li>
+<li>
+<p><a href="capital-preservation/#capital-preservation">capital preservation</a></p>
+</li>
+<li>
+<p><a href="opportunity-monitoring-company/#opportunity-monitoring-company">opportunity monitoring company</a></p>
+</li>
+<li>
+<p><a href="title-insurance-prices/#title-insurance-prices">title insurance prices</a></p>
+</li>
+<li>
+<p><a href="cutting-out-the-middleman/#cutting-out-the-middleman">cutting out the middleman</a></p>
+</li>
+<li>
+<p><a href="memory-foam-mattress/#memory-foam-mattress">memory foam mattress</a></p>
+</li>
+<li>
+<p><a href="compact-flourescent-lightbulb-efficiency/#compact-flourescent-lightbulb-efficiency">compact flourescent lightbulb efficiency</a></p>
+</li>
+<li>
+<p><a href="linux-webcams-at-best-buy/#linux-webcams-at-best-buy">linux webcams at best buy</a></p>
+</li>
+<li>
+<p><a href="ruby-socket-persistence/#ruby-socket-persistence">ruby socket persistence</a></p>
+</li>
+<li>
+<p><a href="lsof-lists-open-file-descriptors/#lsof-lists-open-file-descriptors">lsof lists open file descriptors</a></p>
+</li>
+<li>
+<p><a href="how-to-win-at-scrabulous-using-regular-expressions/#how-to-win-at-scrabulous-using-regular-expressions">how to win at scrabulous using regular expressions</a></p>
+</li>
+<li>
+<p><a href="why-google-gears-and-yahoo-browser-plus-dont-change-the-game-yet/#why-google-gears-and-yahoo-browser-plus-dont-change-the-game-yet">why google gears and yahoo browser plus dont change the game yet</a></p>
+</li>
+<li>
+<p><a href="delegating-your-openid-authentication-doesnt-work-with-drupal-6/#delegating-your-openid-authentication-doesnt-work-with-drupal-6">delegating your openid authentication doesnt work with drupal 6</a></p>
+</li>
+<li>
+<p><a href="haml-why-you-should-use-it/#haml-why-you-should-use-it">haml why you should use it</a></p>
+</li>
+<li>
+<p><a href="email-reminder-scheduler-replylatercom/#email-reminder-scheduler-replylatercom">email reminder scheduler replylater.com</a></p>
+</li>
+<li>
+<p><a href="more-evidence-that-programmers-arent-smarter-than-other-people/#more-evidence-that-programmers-arent-smarter-than-other-people">more evidence that programmers arent smarter than other people</a></p>
+</li>
+<li>
+<p><a href="google-accounts-sucks/#google-accounts-sucks">google accounts sucks</a></p>
+</li>
+<li>
+<p><a href="your-own-fast-image-gallery-on-rails/#your-own-fast-image-gallery-on-rails">your own fast image gallery on rails</a></p>
+</li>
+<li>
+<p><a href="why-i-stopped-reading-the-newspaper/#why-i-stopped-reading-the-newspaper">why i stopped reading the newspaper</a></p>
+</li>
+<li>
+<p><a href="primary-post-mortem/#primary-post-mortem">primary post mortem</a></p>
+</li>
+<li>
+<p><a href="vote-ron-paul-today/#vote-ron-paul-today">vote ron paul today</a></p>
+</li>
+<li>
+<p><a href="profitable-education/#profitable-education">profitable education</a></p>
+</li>
+<li>
+<p><a href="no-shoes-for-6-months/#no-shoes-for-6-months">no shoes for 6 months</a></p>
+</li>
+<li>
+<p><a href="inform-yourself-about-nuclear-waste/#inform-yourself-about-nuclear-waste">inform yourself about nuclear waste</a></p>
+</li>
+<li>
+<p><a href="blog-redux/#blog-redux">blog redux</a></p>
+</li>
+<li>
+<p><a href="lawrence-lessig-predicts-government-ruining-the-internet/#lawrence-lessig-predicts-government-ruining-the-internet">lawrence lessig predicts government ruining the internet</a></p>
+</li>
+<li>
+<p><a href="how-to-unlock-your-iphone-faster/#how-to-unlock-your-iphone-faster">how to unlock your iphone faster</a></p>
+</li>
+<li>
+<p><a href="jumping-out-of-bed/#jumping-out-of-bed">jumping out of bed</a></p>
+</li>
+<li>
+<p><a href="official-irc-for-muds/#official-irc-for-muds">official irc for muds</a></p>
+</li>
+<li>
+<p><a href="how-to-move-your-mud-to-bluehost-for-only-695-per-month/#how-to-move-your-mud-to-bluehost-for-only-695-per-month">how to move your mud to bluehost for only 695 per month</a></p>
+</li>
+<li>
+<p><a href="duct-tape-marketing/#duct-tape-marketing">duct tape marketing</a></p>
+</li>
+<li>
+<p><a href="staticmatic/#staticmatic">staticmatic</a></p>
+</li>
+<li>
+<p><a href="haml-and-sass-rakefile/#haml-and-sass-rakefile">haml and sass rakefile</a></p>
+</li>
+<li>
+<p><a href="ron-paul-for-president-2008/#ron-paul-for-president-2008">Ron Paul for President 2008</a></p>
+</li>
+<li>
+<p><a href="muding-website/#muding-website">MUDing Website</a></p>
+</li>
+<li>
+<p><a href="rubinius/#rubinius">Rubinius</a></p>
+</li>
+<li>
+<p><a href="in-the-future-there-will-be-no-files/#in-the-future-there-will-be-no-files">In the Future, There Will Be No Files</a></p>
+</li>
+<li>
+<p><a href="real-learning/#real-learning">Real Learning</a></p>
+</li>
+<li>
+<p><a href="how-the-press-works/#how-the-press-works">How the Press Works</a></p>
+</li>
+<li>
+<p><a href="campus-assassins-in-usa-today/#campus-assassins-in-usa-today">Campus Assassins in USA Today</a></p>
+</li>
+<li>
+<p><a href="passing-infinite-functions/#passing-infinite-functions">Passing infinite functions</a></p>
+</li>
+<li>
+<p><a href="generic-tostring-java/#generic-tostring-java">GenericToString.java</a></p>
+</li>
+<li>
+<p><a href="mao/#mao">Mao</a></p>
+</li>
+<li>
+<p><a href="strife/#pool-strife">Pool Strife</a></p>
+</li>
+</ul>
+<p>Questions or feedback? Email <a href="mailto:ryan@ryantm.com">ryan@ryantm.com</a></p>
+<p>Built with <a href="https://github.com/ryantm/mmdoc">mmdoc</a>.</p>
+<p>To the extent possible under law, Ryan Mulligan has waived all
+copyright and related or neighboring rights to www.ryantm.com.</p>
+    </nav>
+    <section>
+      <main>
+<h1><span id='what-i-learned-playing-muds'>What I Learned Playing MUDs</span></h1>
+<p>2008-12-17</p>
+<p>Multi user dungeons (MUDs) are online games that use text as the
+primary means of interaction. I created a MUD called DeimosMUD back in
+the year 2000, and it is still running today. Over this time, I have
+spent countless hours working on it. The hours were spent coding new
+features for the game, building new worlds, and mainly dealing with
+people. The time I spent dealing with people's complaints, training
+people, arbitrating disputes, and punishing offenders far outweighed
+the time I spent doing anything else. Some people would say that the
+reason I spent more time on these issues was because I was an inept
+administrator of MUDs, and they would be right. I started this game
+just after 8th grade! Handling these issues taught me a lot.  Solving
+these human caused problems was great for learning how to deal with
+people in general. My work helped me became a much better moderator
+and arbitrator. It also helped develop my leadership skills. The
+hardest people to lead are those that are working for you for free,
+and everyone on my MUD was volunteering.</p>
+<p>I learned that people can have entirely different motivations from you
+and they can end up doing things that you do not like. For example,
+the people who made areas on my MUD, builders, would often make the
+equipment in their areas have better abilities than all of the
+available equipment. This would ensure that players would want to
+visit the builders' new zones. The zones did not have to be fun to
+play, well laid out, or balanced to get players; they just needed to
+have the best equipment. The builders wanted their new zones to be
+popular, but I wanted the abilities of players to not get
+inflated. Player ability inflation deprecates older areas, and makes
+the game easier to play which is usually a bad thing. I never actually
+solved this problem of motivations, but I think even just recognizing
+it was a step in the right direction from my state total ignorance. If
+I were to try to solve this now, I would try to think of a system that
+set up larger incentives for the elements I would like to see in an
+area.</p>
+<p>Discipline was something I learned a lot about as well. When I first
+started the game, I was very lax on discipline. I thought it would be
+okay to just sit by while people were bad mouthing me and the other
+MUD administration. This was because I personally believe in free
+speech and do not really care when other people insult me. I learned
+that this was not the right approach at all. People who insulted the
+administration would take the lack of punishment from the insults as
+license to all sorts of other bad activities: harassing players,
+exploiting bugs, and conspiring against players and administrators. I
+learned that the discipline for petty crimes was necessary if I wanted
+to head of the bigger problem; a lot like <a href="http://en.wikipedia.org/wiki/Fixing_Broken_Windows">fixing broken
+windows</a>.</p>
+<p>Making a MUD also developed my own personal game design aesthetics. At
+first, I favored the absurd over the realistic. Areas that did not
+make sense with the theme of the game (Medieval Fantasy) or game
+mechanics that were just silly, were frequently made. Eventually I
+rejected this absurdity and started to focus more on
+simplicity. Instead of making more complex game mechanics, I was
+trying to think about what I could take out. I now believe the idea
+that something is done not when you have added everything but when
+there is nothing left to take out. I feel that simple game mechanics
+that lead to complex player behavior are greatly superior to complex
+mechanics.</p>
+<p>I had a lot of fun with my MUD and I learned a lot from it. It was my
+principle hobby for at least 6 years. The end product is still around,
+but all the memories of the experiences and fun are hard to share. You
+can still, play DeimosMUD to get a taste of what it must have been
+like.</p>
+      </main>
+    </section>
+  </body>
+</html>
