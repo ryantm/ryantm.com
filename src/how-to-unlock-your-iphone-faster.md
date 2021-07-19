@@ -1,15 +1,17 @@
-# how to unlock your iphone faster {#how-to-unlock-your-iphone-faster}
-%p
-  =image_tag "iPhone.png"
+# How to Unlock Your iPhone Faster {#how-to-unlock-your-iphone-faster}
 
-%p
-  If you have two fingers or a godlike thumb you can unlock your iPhone faster.
+2007-07-13
 
-%p
-  Put your human skin at the 1 position and move it ever so slightly to the right (the less you move it the better). Then press the 2 position with your skin.
+![unlocking iphone](iPhone.png)
 
-%p
-  This operation, if done correctly, takes less time than sliding your finger along the interface.
+If you have two fingers or a godlike thumb you can unlock your iPhone
+faster.
 
-%p
-  Any other gesture saving tips?
+Put your human skin at the 1 position and move it ever so slightly to
+the right (the less you move it the better). Then press the 2 position
+with your skin.
+
+This operation, if done correctly, takes less time than sliding your
+finger along the interface.
+
+Any other gesture saving tips?
