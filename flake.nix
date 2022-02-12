@@ -1,6 +1,7 @@
 {
   inputs.nixpkgs.url = "nixpkgs";
   inputs.flake-utils.url = "github:numtide/flake-utils";
+  #inputs.mmdoc.url = "/home/ryantm/p/mmdoc";
   inputs.mmdoc.url = "github:ryantm/mmdoc";
 
   outputs = { self, nixpkgs, flake-utils, mmdoc } :
