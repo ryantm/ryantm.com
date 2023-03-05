@@ -2,7 +2,6 @@
   stdenvNoCC,
   self,
   mmdoc,
-  strace,
 }:
 stdenvNoCC.mkDerivation rec {
   name = "ryantm.com";

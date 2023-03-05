@@ -4,9 +4,9 @@
     self,
     nixpkgs,
   }: let
-    pkgs = nixpkgs.legacyPackages."x86_64-linux";
+    pkgs = nixpkgs.legacyPackages.x86_64-linux;
   in {
-    packages."x86_64-linux"."ryantm.com" = pkgs.callPackage ./pkgs/ryantm.com.nix {inherit self;};
-    defaultPackage."x86_64-linux" = self.packages."x86_64-linux"."ryantm.com";
+    packages.x86_64-linux.site = pkgs.callPackage ./pkgs/ryantm.com.nix {inherit self;};
+    packages.x86_64-linux.default = self.packages.x86_64-linux.site;
   };
 }
