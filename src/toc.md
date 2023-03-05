@@ -102,5 +102,4 @@ Questions or feedback? Email [ryan@ryantm.com](mailto:ryan@ryantm.com)
 
 Built with [mmdoc](https://github.com/ryantm/mmdoc).
 
-To the extent possible under law, Ryan Mulligan has waived all
-copyright and related or neighboring rights to www.ryantm.com.
+[CC0](https://creativecommons.org/share-your-work/public-domain/cc0/)
