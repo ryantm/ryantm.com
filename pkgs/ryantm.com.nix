@@ -1,11 +1,10 @@
 {
   stdenvNoCC,
-  self,
   mmdoc,
 }:
 stdenvNoCC.mkDerivation rec {
   name = "ryantm.com";
-  src = self;
+  src = ../src;
   phases = ["mmdocPhase"];
-  mmdocPhase = "${mmdoc}/bin/mmdoc ryantm.com $src/src $out";
+  mmdocPhase = "${mmdoc}/bin/mmdoc ryantm.com $src $out";
 }

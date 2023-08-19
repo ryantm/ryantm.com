@@ -1,5 +1,6 @@
 # [RyanTM.com](#home)
 
+* [Declaring an IDE with evalModules](#declaring-an-ide-with-evalmodules)
 * [Home Manager Without Installing](#home-manager-without-installing)
 * [Nixops Without Sharing](#nixops-without-sharing)
 * [add on habit screen time equals exercise time](#add-on-habit-screen-time-equals-exercise-time)
