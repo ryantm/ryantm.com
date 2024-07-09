@@ -1,0 +1,15 @@
+compile = "mmdoc ryantm.com src out"
+run = "caddy file-server --root ./out/multi --listen 0.0.0.0:3000"
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+build = ["sh", "-c", "mmdoc ryantm.com src out"]
+ignorePorts = false
+deploymentTarget = "static"
+publicDir = "out/multi"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
